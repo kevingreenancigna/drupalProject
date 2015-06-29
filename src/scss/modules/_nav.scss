@@ -1,0 +1,73 @@
+.navbar {
+  border-radius: 0;
+  min-height: 37px;
+  height: 37px;
+  margin-bottom: 0;
+  &.container {
+    margin-top: 0;
+    width: 100%;
+    max-width: none !important;
+  }
+}
+
+.navbar-default {
+  background-color: $cignaGlobalPrimary1;
+  border: none;
+  .navbar-toggle {
+    width: 53px;
+    padding: 8px 8px 9px 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    .icon-bar {
+      background-color: #ffffff !important;
+      display: block;
+      width: 25px;
+      height: 4px;
+      margin-left: auto;
+      margin-right: auto;
+      border-color: transparent;
+      border-radius: 0;
+    }
+    &:hover {
+      border-color: transparent;
+      background-color: transparent;
+    }
+    &:focus {
+      background-color: $cignaPrimary4;
+    }
+  }
+}
+
+.nav {
+  .open {
+    a, a:hover, a:focus {
+      background-color: $cignaPrimary4;
+      color: $white;
+    }
+    a .caret, a:hover .caret, a:focus .caret {
+      border-left: 4px solid;
+      border-bottom: 4px solid transparent;
+      border-top: 4px solid transparent;
+    }
+  }
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+  }
+  a:hover .caret {
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+  }
+}
