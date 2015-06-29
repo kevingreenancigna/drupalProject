@@ -1,0 +1,14 @@
+%svg-common {
+	background: url(../svg/sprite.css.svg) no-repeat;
+}
+
+.svg-cigna-logo {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-cigna-logo-dims {
+	width: 170px;
+	height: 56.467px;
+}
+

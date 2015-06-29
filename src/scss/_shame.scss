@@ -1,0 +1,757 @@
+body {
+  font-family: "proximaNovaRegular";
+  font-size: 14px;
+  color: #616161;
+  background-color: $white;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 1.6em;
+}
+
+.insideContainerTrans {
+  padding-top: 20px;
+}
+
+.navbar {
+  border-radius: 0;
+  min-height: 37px;
+  height: 37px;
+  margin-bottom: 0;
+  &.container {
+    margin-top: 0;
+    width: 100%;
+    max-width: none !important;
+  }
+}
+
+.navbar-default {
+  background-color: $cignaGlobalPrimary1;
+  border: none;
+  .navbar-toggle {
+    width: 53px;
+    padding: 8px 8px 9px 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border-color: transparent;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    .icon-bar {
+      background-color: #ffffff !important;
+      display: block;
+      width: 25px;
+      height: 4px;
+      margin-left: auto;
+      margin-right: auto;
+      border-color: transparent;
+      border-radius: 0;
+    }
+    &:hover {
+      border-color: transparent;
+      background-color: transparent;
+    }
+    &:focus {
+      background-color: $cignaPrimary4;
+    }
+  }
+}
+
+.main-header {
+  background-color: $white;
+  padding-top: 10px;
+}
+
+#hero-home-image {
+  margin: auto;
+  background-image: url(../images/main-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 519px;
+  /*max-width:1800px;*/
+}
+
+#what-is-image {
+  margin: auto;
+  background-image: url(../images/what-is-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 519px;
+  /*max-width:1800px;*/
+}
+
+#expat-resources-image {
+  margin: auto;
+  background-image: url(../images/expat-resources-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 519px;
+  /*max-width:1800px;*/
+}
+
+#hero-sub-image {
+  margin: auto;
+  background-image: url(../images/sub-page-main-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+  /*max-width:1800px;*/
+}
+
+.region-hero-home {
+  text-align: center;
+  color: $white;
+}
+
+.region-hero-home {
+  h1 {
+    font-family: "proximaNovaBold";
+    margin-top: 10px;
+    color: $white;
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  p {
+    font-family: "proximaNovaLight";
+    font-size: 24px;
+    strong {
+      font-family: "proximaNovaBold";
+    }
+  }
+}
+
+.region-what-is {
+  h2 {
+    font-family: "proximaNovaLight";
+    margin-top: 40px;
+    color: $white;
+    font-size: 36px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  p {
+    color: $white;
+    line-height: 24px;
+  }
+}
+
+.region-main-expat-resources-section {
+  margin-top: 30px;
+  h2 {
+    color: $white;
+    font-family: "proximaNovaLight";
+    font-size: 36px;
+  }
+}
+
+.region-first-expat-resources-section, .region-second-expat-resources-section, .region-third-expat-resources-section, .region-fourth-expat-resources-section {
+  margin-top: 30px;
+  h2 {
+    color: $white;
+    font-family: "proximaNovaBold";
+    font-size: 18px;
+  }
+  p {
+    color: $white;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .menu {
+    li {
+      color: $white;
+      font-size: 14px;
+      border-bottom: 1px solid $white;
+      line-height: 19px;
+      &:last-child {
+        margin-bottom: 6px;
+      }
+      a {
+        color: $white;
+        padding: 5px 0;
+        &:hover, &.active {
+          color: $white;
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+.region-second-expat-resources-section {
+  margin-top: 59px;
+}
+
+.region-home-contact {
+  h2 {
+    font-size: 24px;
+    color: $grey;
+  }
+  .fa-stack {
+    line-height: 0;
+  }
+  .fa {
+    color: $cignaGlobalPrimary2;
+    &.home-callback-arrow {
+      font-size: 20px;
+      margin-top: -5px;
+      margin-left: -15px;
+      line-height: 2em;
+    }
+  }
+}
+
+.region-sidebar-cigna-second {
+  color: $cignaGlobalPrimary2;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  h2 {
+    font-size: 18px;
+  }
+  .fa-stack {
+    line-height: 0;
+    height: 1em;
+  }
+  .fa {
+    &.home-callback-arrow {
+      font-size: 8px;
+      margin-top: -5px;
+      margin-left: -5px;
+      line-height: 2em;
+    }
+  }
+}
+
+.carousel, .heroImage {
+  margin: auto;
+}
+
+.dd-wrapper {
+  width: 100%;
+  background-image: none;
+  background-color: $cignaGlobalPrimary1;
+  border: none;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  position: fixed !important;
+  display: block;
+  min-height: 220px;
+  z-index: 1000;
+  display: none;
+  list-style: none;
+  opacity: 0.91;
+  left: 0 !important;
+}
+
+.nav {
+  .open {
+    a, a:hover, a:focus {
+      background-color: $cignaPrimary4;
+      color: $white;
+    }
+    a .caret, a:hover .caret, a:focus .caret {
+      border-left: 4px solid;
+      border-bottom: 4px solid transparent;
+      border-top: 4px solid transparent;
+    }
+  }
+  .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+  }
+  a:hover .caret {
+    border-left: 4px solid;
+    border-bottom: 4px solid transparent;
+    border-top: 4px solid transparent;
+  }
+}
+
+.breadcrumb {
+  background-color: transparent;
+  img {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .active {
+    color: $black;
+  }
+  span {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: $black;
+    a {
+      text-decoration: none;
+      color: $black;
+    }
+  }
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.btn-cigna-primary, .btn-cigna-primary:hover, .btn-cigna-primary:focus, .btn-cigna-primary.focus, .btn-cigna-secondary, .btn-cigna-secondary:hover, .btn-cigna-secondary:focus, .btn-cigna-secondary.focus, .btn-cigna-tertiary, .btn-cigna-tertiary:hover, .btn-cigna-tertiary:focus, .btn-cigna-tertiary.focus, .btn-cigna-quaternary, .btn-cigna-quaternary:hover, .btn-cigna-quaternary:focus, .btn-cigna-quaternary.focus, .btn-cigna-quaternary, .btn-cigna-quaternary:hover, .btn-cigna-quaternary:focus, .btn-cigna-quaternary.focus, .btn-cigna-quinary, .btn-cigna-quinary:hover, .btn-cigna-quinary:focus, .btn-cigna-quinary.focus {
+  font-family: "proximaSemiBold";
+  color: $white;
+  padding: 10px;
+  letter-spacing: 2px;
+  border-radius: 0;
+}
+
+.btn-cigna-primary, .btn-cigna-primary:hover, .btn-cigna-primary:focus, .btn-cigna-primary.focus {
+  background-color: $cignaGlobalSecondary2;
+  border-color: $cignaGlobalSecondary2;
+  font-size: 24px;
+}
+
+.btn-cigna-secondary, .btn-cigna-secondary:hover, .btn-cigna-secondary:focus, .btn-cigna-secondary.focus {
+  background-color: $cignaGlobalSecondary1;
+  border-color: $cignaGlobalSecondary1;
+  font-size: 18px;
+}
+
+.btn-cigna-tertiary, .btn-cigna-tertiary:hover, .btn-cigna-tertiary:focus, .btn-cigna-tertiary.focus {
+  background-color: $cignaGlobalPrimary1;
+  border-color: $cignaGlobalPrimary1;
+  font-size: 14px;
+}
+
+.btn-cigna-quaternary, .btn-cigna-quaternary:hover, .btn-cigna-quaternary:focus, .btn-cigna-quaternary.focus {
+  color: $cignaGlobalPrimary2;
+  background-color: $cignaGlobalSecondary4;
+  border-color: $cignaGlobalSecondary4;
+  font-size: 14px;
+}
+
+.btn-cigna-quinary, .btn-cigna-quinary:hover, .btn-cigna-quinary:focus, .btn-cigna-quinary.focus {
+  background-color: $cignaGlobalPrimary2;
+  border-color: $cignaGlobalPrimary2;
+  font-size: 14px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.mt10px {
+  margin-top: 10px;
+}
+
+.mt20px {
+  margin-top: 40px;
+}
+
+.mt40px {
+  margin-top: 20px;
+}
+
+.green {
+  color: $cignaGlobalSecondary1;
+}
+
+.green:hover {
+  color: $cignaGlobalSecondary1;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* Standard Bootstrap overrides */
+
+.well {
+  border: none;
+  &.blue {
+    background-color: $cignaGlobalPrimary1;
+    border-radius: 0;
+    color: $white;
+    padding: 40px;
+    &.our-plans {
+      p {
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 30px;
+      }
+      p, h2 {
+        font-family: "proximaNovaLight";
+        letter-spacing: 1px;
+        line-height: 1.428571429;
+        a.btn {
+          font-family: "proximaSemiBold";
+        }
+      }
+    }
+    &.core-cover {
+      h3 {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 1.428571429;
+        font-family: "proximaNovaBold";
+      }
+      p {
+        font-family: "proximaNovaRegular";
+        letter-spacing: 1px;
+        line-height: 1.428571429;
+        strong {
+          font-family: "proximaNovaBold";
+        }
+      }
+      a {
+        font-family: "proximaNovaBold";
+        &.btn {
+          font-family: "proximaSemiBold";
+        }
+      }
+      p.core-cover-body {
+        font-size: 24px;
+      }
+    }
+    a {
+      font-weight: normal;
+    }
+  }
+  &.white {
+    background-color: $white;
+    font-family: "proximaNovaRegular";
+    margin-top: 40px;
+    border: none;
+    box-shadow: none;
+  }
+  &.light-blue {
+    background-color: $cignaGlobalSecondary4;
+    border-radius: 0;
+    padding: 40px;
+    .fa {
+      color: $cignaGlobalPrimary2;
+      &.home-secondary {
+        color: $cignaGlobalSecondary2;
+      }
+      &.home-arrow {
+        margin-top: -15px;
+        margin-left: 3px;
+      }
+      &.home-plus-circle {
+        margin-top: 15px;
+        margin-left: 45px;
+        font-size: 30px;
+      }
+      &.home-circle1 {
+        margin-top: -25px;
+        margin-left: -25px;
+        font-size: 20px;
+      }
+      &.home-circle2 {
+        margin-top: -30px;
+        margin-left: 25px;
+        font-size: 20px;
+      }
+      &.home-circle3 {
+        margin-top: 5px;
+        margin-left: 10px;
+        font-size: 20px;
+      }
+      &.home-circle4 {
+        margin-top: 30px;
+        margin-left: 20px;
+        font-size: 20px;
+      }
+    }
+  }
+  &.cigna-sidebar {
+    background-color: #eff4f8;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border: none;
+    ul {
+      margin: 15px;
+    }
+    ul li {
+      margin-left: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: 1px solid #dddddd;
+      &:first-child {
+        border-top: 1px solid #dddddd;
+      }
+      a {
+        color: $cignaGlobalPrimary1;
+        padding: 10px 0;
+        &:hover {
+          background-color: transparent;
+        }
+        &:before {
+          font-family: 'FontAwesome';
+          content: '\f054';
+          float: right;
+          color: $cignaGlobalPrimary3;
+        }
+        &:hover::before {
+          font-family: 'FontAwesome';
+          content: '\f054';
+          float: right;
+          color: $cignaGlobalPrimary3;
+        }
+      }
+    }
+  }
+  h2 {
+    margin-top: 0;
+  }
+  ul.our-plans {
+    list-style: none;
+    margin-top: 20px;
+    li {
+      margin-left: -40px;
+      border-bottom: 1px solid #106aa8;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      &:first-child {
+        border-top: 1px solid #106aa8;
+      }
+      a {
+        color: $white;
+        display: block;
+      }
+    }
+  }
+  ul.core-cover {
+    border-bottom: none;
+    li {
+      .fa-caret-down {
+        margin-top: -22px;
+        display: none;
+      }
+      a {
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        border-radius: 0;
+        border: none;
+        color: $white;
+        background: #d4effd;
+        background: rgba(212, 239, 253, 0.2);
+        font-size: 18px;
+        &:hover {
+          border: none;
+        }
+        &:focus {
+          border: none;
+        }
+      }
+      &.active {
+        a {
+          color: $cignaGlobalPrimary3;
+          border: none;
+          background-color: $white;
+        }
+        .fa-caret-down {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.col-xs-15 {
+  width: 20%;
+  float: left;
+}
+
+@media screen and (min-width: $tablet) {
+  .col-sm-15 {
+    width: 20%;
+    float: left;
+  }
+  .region-header {
+    width: 750px;
+  }
+  .region-main-navigation {
+    float: left;
+    .menu {
+      li {
+        float: left;
+        display: inline;
+        a {
+          color: #555;
+          display: block;
+          font-weight: bold;
+          font-size: 1em;
+          text-decoration: none;
+        }
+        &.leaf a:hover, &.expanded a:hover, &.expanded a.rollover {
+          background-color: $cignaGlobalPrimary1;
+          color: $white;
+          background-image: none;
+        }
+        &.active-trail a {
+          border-bottom: 10px solid $cignaGlobalPrimary1;
+          color: #555;
+        }
+        &.open a {
+          color: $white;
+        }
+        &.active-trail ul li a {
+          border-bottom: 10px solid $cignaGlobalPrimary1;
+          color: $white;
+        }
+      }
+    }
+    .dropdown-menu {
+      background-color: transparent;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      li {
+        display: block;
+        float: none;
+        a {
+          background-image: none;
+          background-color: transparent;
+          color: $white;
+          text-align: left;
+          padding: 0;
+          display: inline;
+          border-bottom: none;
+        }
+      }
+    }
+  }
+  .nav {
+    .caret {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 2px;
+      vertical-align: middle;
+      border-top: 4px solid;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+    }
+    .open {
+      a, a:hover, a:focus {
+        background-color: $cignaGlobalPrimary1;
+        color: $white;
+      }
+      a .caret, a:hover .caret, a:focus .caret, a:hover .caret {
+        border-top: 4px solid;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+      }
+    }
+    a:hover .caret {
+      border-top: 4px solid;
+      border-left: 4px solid transparent;
+      border-right: 4px solid transparent;
+    }
+  }
+  .promo-middle, .promo-right {
+    border-left: 2px solid #d4d4d4;
+  }
+  .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    margin-left: -15px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: $normal) {
+  .col-md-15 {
+    width: 20%;
+    float: left;
+  }
+  .region-header {
+    width: 960px;
+  }
+  .region-hero-home h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    padding: 100px 0 0 0;
+    line-height: 50px;
+  }
+  .region-hero-home button {
+    margin-top: 20px;
+  }
+  .well {
+    &.blue {
+      min-height: 440px;
+      max-height: 440px;
+    }
+  }
+  .region-home-contact {
+    .col-no-padding {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (min-width: $wide) {
+  .col-lg-15 {
+    width: 20%;
+    float: left;
+  }
+}
+
+/* Collapses the main menu sooner than the default as breaks over 2 lines at default */
+@media screen and (max-width: $normal) {
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}

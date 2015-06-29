@@ -1,0 +1,21 @@
+{
+  "name": "cigna",
+  "version": "0.0.0",
+  "authors": [
+    "Steven Grant <steven@ghijk.co.uk>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "~3.3.5"
+  }
+}

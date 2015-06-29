@@ -1,0 +1,26 @@
+$fa-font-path: "../fonts";
+@import '../../bower_components/components-font-awesome/scss/font-awesome';
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'data/drupal7/sites/all/themes/cignaNewGlobal/scss/sprite';
+@import 'mixins';
+@import 'fonts';
+@import 'variables.scss';
+
+@import 'elements';
+
+// commonly used components
+
+@import 'modules/buttons';
+@import 'modules/header';
+@import 'modules/nav';
+@import 'modules/breadcrumbs';
+@import 'modules/footer';
+
+// page specific styles
+
+@import 'pages/home';
+
+@import 'bootstrap-override';
+@import 'helper';
+
+@import 'shame';

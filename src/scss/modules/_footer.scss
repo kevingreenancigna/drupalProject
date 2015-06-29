@@ -1,0 +1,56 @@
+.footer {
+  background-color: $cignaGlobalPrimary1;
+  color: #ffffff;
+  margin-top: 20px;
+  border: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 100px;
+}
+
+footer {
+  .topFooter {
+    background-color: $cignaGlobalPrimary2;
+    padding: 60px 0;
+    p {
+      font-family: "proximaNovaLight";
+      font-size: 30px;
+    }
+  }
+  .copyright {
+    background-color: $cignaGlobalPrimary2;
+    min-height: 40px;
+  }
+}
+
+.region-first-footer-section, .region-second-footer-section, .region-third-footer-section, .region-fourth-footer-section {
+  margin: 60px 0;
+  h2 {
+    margin-top: 40px;
+    font-family: "proximaNovaBold";
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  a {
+    color: $white;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .menu {
+    list-style-type: none;
+    line-height: 1.5em;
+    li {
+      text-align: left;
+      border-bottom: 1px solid $cignaGlobalPrimary2;
+      a {
+        color: #fff;
+        text-decoration: none;
+        padding: 5px 0;
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}
