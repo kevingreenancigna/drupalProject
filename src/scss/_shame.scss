@@ -2,8 +2,6 @@
   padding-top: 20px;
 }
 
-
-
 #hero-home-image {
   margin: auto;
   background-image: url(../images/main-image.jpg);
@@ -182,7 +180,6 @@
   background-color: $cignaGlobalPrimary1;
   border: none;
   border-radius: 0;
-  -webkit-box-shadow: none;
   box-shadow: none;
   position: fixed !important;
   display: block;
@@ -304,8 +301,6 @@
   &.cigna-sidebar {
     background-color: #eff4f8;
     border-radius: 0;
-    -moz-border-radius: 0;
-    -webkit-border-radius: 0;
     border: none;
     ul {
       margin: 15px;
@@ -453,7 +448,6 @@
     .dropdown-menu {
       background-color: transparent;
       border: none;
-      -webkit-box-shadow: none;
       box-shadow: none;
       li {
         display: block;
