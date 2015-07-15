@@ -1,0 +1,92 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Global values
+// --------------------------------------------------
+
+// Grays
+// -------------------------
+
+$gray-darker:            lighten(#000, 13.5%); // #222
+$gray-dark:              lighten(#000, 20%);   // #333
+$gray:                   lighten(#000, 33.5%); // #555
+$gray-light:             lighten(#000, 60%);   // #999
+$gray-lighter:           lighten(#000, 93.5%); // #eee
+
+// Brand colors
+// -------------------------
+
+$brand-primary:         #428bca;
+$brand-success:         #5cb85c;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+$brand-info:            #5bc0de;
+
+$cignaPrimary1: 		#004986; //Blue
+$cignaPrimary2:			#ffc82e; //Orange
+$cignaPrimary3:			#0e1e63; //Blue
+$cignaPrimary4:			#00aeef; //Blue
+
+$cignaSecondary1:		#2eb135; //Green
+$cignaSecondary2:		#ff4e00; //Orange
+$cignaSecondary3:		#b81d8c; //Purple
+
+$cigna1:				#00aeef; //Blue
+$cigna2:				#99dff9; //Blue
+$cigna3:				#bed600; //Green
+$cigna4:				#f8e300; //Yellow
+$cigna5:				#ef8200; //orange
+$cigna6:				#ec008c; //Pink
+$cigna7:				#ff7eb6; //Pink
+$cigna8:				#000000; //Black
+$cigna9:				#9d9d9d; //Grey
+$cigna10:				#ededed; //Grey
+$cigna11:				#ffffff; //White
+
+$cignaGlobalPrimary1:	#1582c5; //Blue
+$cignaGlobalPrimary2:	#0e6ea8; //Blue
+$cignaGlobalPrimary3:	#ffc82e; //Orange
+
+$cignaGlobalSecondary1:	#2eb135; //Green
+$cignaGlobalSecondary2:	#f79820; //Orange
+$cignaGlobalSecondary3:	#b81d8c; //Purple
+$cignaGlobalSecondary4: #eef4f7; //Light blue
+
+$black:					#000000;
+$white:					#ffffff;
+$grey:					#616161;
+
+
+// Media queries breakpoints
+// --------------------------------------------------
+
+// Extra small screen / phone
+// Note: Deprecated @screen-xs and @screen-phone as of v3.0.1
+$screen-xs:                  480px;
+$screen-xs-min:              $screen-xs;
+$screen-phone:               $screen-xs-min;
+
+// Small screen / tablet
+// Note: Deprecated @screen-sm and @screen-tablet as of v3.0.1
+$screen-sm:                  768px;
+$screen-sm-min:              $screen-sm;
+$screen-tablet:              $screen-sm-min;
+
+// Medium screen / desktop
+// Note: Deprecated @screen-md and @screen-desktop as of v3.0.1
+$screen-md:                  992px;
+$screen-md-min:              $screen-md;
+$screen-desktop:             $screen-md-min;
+
+// Large screen / wide desktop
+// Note: Deprecated @screen-lg and @screen-lg-desktop as of v3.0.1
+$screen-lg:                  1200px;
+$screen-lg-min:              $screen-lg;
+$screen-lg-desktop:          $screen-lg-min;
+
+// So media queries don't overlap when required, provide a maximum
+$screen-xs-max:              ($screen-sm-min - 1);
+$screen-sm-max:              ($screen-md-min - 1);
+$screen-md-max:              ($screen-lg-min - 1);

@@ -1,0 +1,84 @@
+name = Cigna Bootstrap Sub-theme
+description = A Bootstrap Sub-theme for Cigna Global.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     				= 'Navigation'
+regions[header]         				= 'Top Bar'
+regions[search]         				= 'Site search area'
+regions[main_navigation]    			= 'Main site navigation'
+regions[hero_home]    					= 'Main hero section home page'
+regions[hero]    						= 'Main hero section'
+regions[content]        				= 'Content'
+regions[what_is]    					= 'What is international health insurance section home page'
+regions[main_expat_resources_section]  	= 'Main expat resources section home page'
+regions[first_expat_resources_section]  = 'First expat resources section home page'
+regions[second_expat_resources_section] = 'Second expat resources section home page'
+regions[third_expat_resources_section]  = 'Third expat resources section home page'
+regions[fourth_expat_resources_section] = 'Fourth expat resources section home page'
+regions[home_contact] 					= 'Contact section home page'
+regions[sidebar_cigna_first] 			= 'Right navigation'
+regions[sidebar_cigna_second] 			= 'Right contact section'
+regions[footer]         				= 'Footer'
+regions[first_footer_section]   		= 'First footer section'
+regions[second_footer_section]  		= 'Second footer section'
+regions[third_footer_section]   		= 'Third footer section'
+regions[fourth_footer_section]  		= 'Fourth footer section'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+;scripts[] = js/functions.js
+;scripts[] = js/menu.js
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+; 
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+;settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.
