@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Views UI Config feature.
+ */
+
+include_once 'views_ui_config.features.inc';

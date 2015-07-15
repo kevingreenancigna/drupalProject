@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Module Filter Config feature.
+ */
+
+include_once 'module_filter_config.features.inc';

@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * cigna_install.php
+ */
+
+/**
+ * Enable Page Manager and Panels modules.
+ */
+function cigna_deploy_update_7001() {
+    module_enable(array('page_manager'));
+    module_enable(array('panels', 'panels_ipe'));
+}
+
+/**
+ * Enable URL module.
+ */
+function cigna_deploy_update_7002() {
+    module_enable(array('url'));
+}

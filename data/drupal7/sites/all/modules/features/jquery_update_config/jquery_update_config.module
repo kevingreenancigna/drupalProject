@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the JQuery Update Config feature.
+ */
+
+include_once 'jquery_update_config.features.inc';
