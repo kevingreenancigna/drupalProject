@@ -32,7 +32,7 @@ function cignaGlobal_preprocess_entity(&$vars){
 /**
  * Preprocess function for CTA Telephone Bean.
  *
- * @see cignaGlobal_preprocess_entity.
+ * @see cignaNewGlobal_preprocess_entity.
  */
 function _cignaGlobal_preprocess_entity__bean__cta_telephone(&$vars) {
     // Add mark-up to telephone numbers.
