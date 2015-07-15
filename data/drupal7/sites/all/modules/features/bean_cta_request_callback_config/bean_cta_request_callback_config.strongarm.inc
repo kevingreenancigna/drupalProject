@@ -15,7 +15,14 @@ function bean_cta_request_callback_config_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_bean__cta_request_callback';
   $strongarm->value = array(
-    'view_modes' => array(),
+    'view_modes' => array(
+      'default' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
     'extra_fields' => array(
       'form' => array(
         'label' => array(
@@ -31,7 +38,14 @@ function bean_cta_request_callback_config_strongarm() {
           'weight' => '4',
         ),
       ),
-      'display' => array(),
+      'display' => array(
+        'title' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
     ),
   );
   $export['field_bundle_settings_bean__cta_request_callback'] = $strongarm;
