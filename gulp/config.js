@@ -6,7 +6,7 @@
 // the appropriate module export settings appropriately
 
 var dest = './data/drupal7/sites/all/themes/';
-var drupalThemeName = 'cignaNewGlobal';
+var drupalThemeName = 'cignaGlobal';
 var drupalThemePath = dest + drupalThemeName;
 var src = './src';
 var drupalTemplates = dest + drupalThemeName + '/templates';
@@ -15,8 +15,8 @@ module.exports = {
   browserSync: {
     proxy: "cignadrupal.dev",
     files: [
-      "./data/drupal7/sites/all/themes/cignaNewGlobal/templates/**/*.php",
-      "./data/drupal7/sites/all/themes/cignaNewGlobal/css/**/*.css"
+      "./data/drupal7/sites/all/themes/cignaGlobal/templates/**/*.php",
+      "./data/drupal7/sites/all/themes/cignaGlobal/css/**/*.css"
     ]
   },
   fonts: {

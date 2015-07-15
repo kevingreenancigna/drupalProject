@@ -8,10 +8,10 @@
 /**
  * Implements hook_preprocess_entity().
  */
-function cignaNewGlobal_preprocess_entity(&$vars){
+function cignaGlobal_preprocess_entity(&$vars){
     // Create functions for more fine-grained control of entity preprocessing.
     $entity_type = $vars['entity_type'];
-    $func_bundle = '_cignaNewGlobal_preprocess_entity__' . $entity_type . '__' . $vars[$entity_type]->type;
+    $func_bundle = '_cignaGlobal_preprocess_entity__' . $entity_type . '__' . $vars[$entity_type]->type;
     $view_mode = !empty($vars['ds_switch']) ? $vars['ds_switch'] : $vars['view_mode'];
     $func_view_mode = $func_bundle . '_' . $view_mode;
 
@@ -32,9 +32,9 @@ function cignaNewGlobal_preprocess_entity(&$vars){
 /**
  * Preprocess function for CTA Telephone Bean.
  *
- * @see cignaNewGlobal_preprocess_entity.
+ * @see cignaGlobal_preprocess_entity.
  */
-function _cignaNewGlobal_preprocess_entity__bean__cta_telephone(&$vars) {
+function _cignaGlobal_preprocess_entity__bean__cta_telephone(&$vars) {
     // Add mark-up to telephone numbers.
     if(!empty($vars['content']['field_telephone_numbers']['#items'])){
         $items =& $vars['content']['field_telephone_numbers']['#items'];

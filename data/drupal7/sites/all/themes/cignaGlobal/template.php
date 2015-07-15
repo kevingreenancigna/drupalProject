@@ -6,7 +6,7 @@
  */
 
 // Include theme and preprocessing functions.
-$theme_path = drupal_get_path('theme', 'cignaNewGlobal');
+$theme_path = drupal_get_path('theme', 'cignaGlobal');
 require_once $theme_path . '/functions/block.php';
 require_once $theme_path . '/functions/css.php';
 require_once $theme_path . '/functions/entity.php';
