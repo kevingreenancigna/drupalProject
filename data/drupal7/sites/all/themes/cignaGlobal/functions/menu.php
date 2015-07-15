@@ -8,14 +8,14 @@
 /**
  * Implements hook_menu_tree().
  */
-function cignaNewGlobal_menu_tree($variables) {
+function cignaGlobal_menu_tree($variables) {
     return $variables['tree'];
 }
 
 /**
  * Implements hook_menu_link().
  */
-function cignaNewGlobal_menu_link($variables) {
+function cignaGlobal_menu_link($variables) {
     $element = $variables['element'];
     $sub_menu = '';
 

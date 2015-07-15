@@ -8,7 +8,7 @@
 /**
  * Implements hook_preprocess_block().
  */
-function cignaNewGlobal_preprocess_block(&$vars) {
+function cignaGlobal_preprocess_block(&$vars) {
     if(!empty($vars['elements']['bean']) && is_array($vars['elements']['bean'])) {
         $array_keys = array_keys($vars['elements']['bean']);
         $bean_name = $array_keys[0];
