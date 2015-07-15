@@ -18,14 +18,14 @@ function bean_cta_telephone_config_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'url',
         'settings' => array(
-          'nofollow' => FALSE,
-          'trim_length' => 80,
+          'nofollow' => 0,
+          'trim_length' => '',
         ),
         'type' => 'url_default',
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'bean',
@@ -57,14 +57,14 @@ function bean_cta_telephone_config_field_default_field_instances() {
     'description' => 'The telephone number and associated description to call. For instance: Inside the US: <strong>877.539.6265</strong>. This appears below the title of the telephone call-to-action block.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'double_field',
         'settings' => array(
           'first' => array(
             'format' => '_none',
             'hidden' => 0,
             'prefix' => '',
-            'suffix' => ':&nbsp;',
+            'suffix' => '',
           ),
           'second' => array(
             'format' => '_none',

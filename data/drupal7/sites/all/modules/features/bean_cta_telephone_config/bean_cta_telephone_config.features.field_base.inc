@@ -22,14 +22,14 @@ function bean_cta_telephone_config_field_default_field_bases() {
     'module' => 'double_field',
     'settings' => array(
       'first' => array(
-        'maxlength' => 255,
+        'maxlength' => 48,
         'precision' => 10,
         'scale' => 2,
         'size' => 'normal',
         'type' => 'varchar',
       ),
       'second' => array(
-        'maxlength' => 255,
+        'maxlength' => 48,
         'precision' => 10,
         'scale' => 2,
         'size' => 'normal',
