@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="85" height="83" viewBox="0 0 85 83">
+  <defs>
+    <style>
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-4 {
+        fill: #1582c5;
+        font-size: 18px;
+        font-family: "FontAwesome";
+      }
+
+      .cls-6 {
+        fill: #f89416;
+        font-size: 18px;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <g id="heartsvg">
+    <text class="cls-3" transform="translate(0 67) scale(4.7)"><tspan class="cls-4"></tspan></text>
+    <text class="cls-3" transform="translate(0 80) scale(2.01)"><tspan class="cls-6"></tspan></text>
+  </g>
+</svg>
