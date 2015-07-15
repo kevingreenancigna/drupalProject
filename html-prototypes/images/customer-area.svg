@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="101" height="80" viewBox="0 0 101 80">
+  <defs>
+    <style>
+
+      .cls-3 {
+        font-size: 90px;
+      }
+
+      .cls-4 {
+        fill: #1582c5;
+        font-size: 90px;
+        font-family: "FontAwesome";
+      }
+
+      .cls-6 {
+        fill: #f89315;
+        font-size: 90px;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <g id="customer-areasvg">
+    <text class="cls-3" transform="translate(0 68) scale(0.87)"><tspan class="cls-4"></tspan></text>
+    <text class="cls-3" transform="translate(67 70) scale(0.44)"><tspan class="cls-6"></tspan></text>
+  </g>
+</svg>

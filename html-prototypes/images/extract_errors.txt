@@ -1,0 +1,2 @@
+[Thu Jun 11 2015 10:29:35 GMT+0100 (GMT Daylight Time)] Layer "two-hearts.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[Thu Jun 11 2015 10:29:35 GMT+0100 (GMT Daylight Time)] Layer "happy-eye.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="97" height="85" viewBox="0 0 97 85">
+  <defs>
+    <style>
+
+      .cls-3 {
+        font-size: 90px;
+      }
+
+      .cls-4 {
+        fill: #1582c5;
+        font-size: 90px;
+        font-family: "FontAwesome";
+      }
+
+      .cls-6 {
+        fill: #f89315;
+        font-size: 90px;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <g id="apply-onlinesvg">
+    <text class="cls-3" y="78px"><tspan class="cls-4"></tspan></text>
+    <text class="cls-3" transform="translate(30 44) scale(0.44)"><tspan class="cls-6"></tspan></text>
+  </g>
+</svg>
