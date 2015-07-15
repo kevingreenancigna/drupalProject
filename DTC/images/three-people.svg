@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="108" height="73" viewBox="0 0 108 73">
+  <defs>
+    <style>
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-4 {
+        fill: #f89416;
+        font-size: 18px;
+        font-family: "FontAwesome";
+      }
+
+      .cls-8 {
+        fill: #1582c5;
+        font-size: 18px;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <g id="three-peoplesvg">
+    <text class="cls-3" transform="translate(0 47) scale(2.43)"><tspan class="cls-4"></tspan></text>
+    <text class="cls-3" transform="translate(73 47) scale(2.43)"><tspan class="cls-4"></tspan></text>
+    <text class="cls-3" transform="translate(22 67) scale(4.7)"><tspan class="cls-8"></tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="165" height="134" viewBox="0 0 165 134">
+  <defs>
+    <style>
+
+      .cls-3 {
+        font-size: 12.41479px;
+      }
+
+      .cls-4 {
+        fill: #1582c5;
+        font-size: 12.41479px;
+        font-family: "FontAwesome";
+      }
+
+      .cls-6 {
+        fill: #f89416;
+        font-size: 12.41479px;
+        font-family: "FontAwesome";
+      }
+    </style>
+  </defs>
+  <g id="ambulancesvg">
+    <text class="cls-3" transform="translate(-4 124) scale(10.48)"><tspan dy="NaNem" class="cls-4"></tspan></text>
+    <text class="cls-3" transform="translate(123 39) scale(3.94)"><tspan dy="NaNem" class="cls-6"></tspan></text>
+  </g>
+</svg>
