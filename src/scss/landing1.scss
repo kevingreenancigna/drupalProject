@@ -1,0 +1,360 @@
+body {
+  background: #84b2cd url(../images/backpackers.jpg) right top no-repeat;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.layer {
+  background-color: rgba(122, 166, 193, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  background: #fff !important;
+}
+
+nav .navbar-brand {
+  height: auto;
+  line-height: auto;
+}
+
+nav .navbar-text {
+  color: #024671 !important;
+  line-height: 38px;
+}
+
+nav .dropdown-toggle {
+  color: #024671 !important;
+}
+
+nav .navbar-nav > li > a {
+  line-height: 38px;
+}
+
+nav .icon-bar {
+  background: #007ec6 !important;
+}
+
+.jumbotron {
+  background: none;
+  color: #fff;
+}
+
+.jumbotron h1 {
+  font-size: 45px;
+}
+
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+.jumbotron .btn {
+  font-size: 18px;
+  width: 19%;
+}
+
+section {
+  background: none;
+  color: #656c71;
+  padding-bottom: 20px;
+}
+
+section .fa {
+  padding-right: 15px;
+  color: #337ab7;
+}
+
+section p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12%;
+}
+
+section sup {
+  padding-right: 4%;
+  margin-left: -8%;
+  color: #337ab7;
+}
+
+section .glyphicon {
+  padding-right: 10px;
+  color: #337ab7;
+}
+
+section span {
+  color: #fff;
+}
+
+section .btn {
+  color: #fff;
+  width: 60%;
+}
+
+section .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: none;
+  color: #0d7ec4;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer #social {
+  text-align: center;
+  display: inline-flex;
+}
+
+@media (max-width: 1200px) {
+  body {
+    background: #84b2cd url(../images/landing-page-1-background.jpg) right top no-repeat;
+  }
+  nav .navbar-right {
+    width: 61%;
+    line-height: normal;
+    margin: 0;
+    margin-top: 85px;
+  }
+  nav .navbar-text {
+    float: right;
+    line-height: 20px;
+    margin-top: -41px;
+  }
+  nav .dropdown {
+    float: right;
+    margin-right: 5px;
+    margin-top: -92px;
+  }
+  .jumbotron h1 {
+    font-size: 65px;
+  }
+  .jumbotron p {
+    margin-bottom: -6px;
+    font-size: 31px;
+    font-weight: 200;
+  }
+  .jumbotron .btn {
+    font-size: 33px;
+    width: 36%;
+    padding-top: 10px;
+    padding-bottom: 18px;
+  }
+  section {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  section h3 {
+    margin-left: 5.5%;
+    text-indent: -4%;
+    width: 30% !important;
+    margin-top: 35px;
+  }
+  section .fa {
+    padding-right: 15px;
+  }
+  section p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 30% !important;
+    margin-left: 0 !important;
+  }
+  section sup {
+    padding-right: 4%;
+    margin-left: -10px;
+  }
+  section .glyphicon {
+    padding-right: 10px;
+  }
+  section p + p {
+    width: 30% !important;
+  }
+  section .btn {
+    width: 100%;
+    color: #337ab7;
+    background: #fff;
+    border: none;
+  }
+  section .col-sm-12.col-md-12.col-lg-4 {
+    border-top: 1px solid #fff;
+  }
+  footer {
+    background: #fff;
+  }
+  footer #social {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background: #84b2cd url(../images/landing-page-1-background.jpg) right top no-repeat;
+  }
+  .jumbotron h1 {
+    font-size: 53px;
+  }
+  .jumbotron p {
+    margin-bottom: -6px;
+    font-size: 26px;
+    font-weight: 200;
+  }
+  .jumbotron .btn {
+    font-size: 20px;
+    width: 33%;
+    padding-top: 10px;
+    padding-bottom: 13px;
+  }
+  section {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  section h3 {
+    margin-left: 5.5%;
+    text-indent: -5%;
+    width: 30% !important;
+  }
+  section .fa {
+    padding-right: 15px;
+  }
+  section p {
+    width: 43% !important;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 0 !important;
+  }
+  section p + p {
+    width: 17% !important;
+  }
+  section sup {
+    padding-right: 3% !important;
+    margin-left: -5% !important;
+  }
+  section .glyphicon {
+    padding-right: 10px;
+  }
+  section .btn {
+    width: 160%;
+  }
+  section .col-sm-12.col-md-12.col-lg-4 {
+    border-top: 1px solid #fff;
+  }
+  footer #social {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background: none;
+  }
+  nav .navbar-text {
+    margin-top: -43px;
+    line-height: normal;
+  }
+  nav .navbar-right {
+    width: auto;
+    margin-top: 0;
+  }
+  nav .fa-globe {
+    display: none;
+  }
+  nav .language {
+    display: none;
+  }
+  nav .dropdown {
+    float: left;
+    margin-top: 0;
+  }
+  nav .dropdown-toggle {
+    line-height: 20px;
+    padding: 0;
+  }
+  nav .navbar-toggle {
+    margin-top: 17px;
+    border: none;
+    margin-right: 3px;
+  }
+  nav .icon-bar {
+    width: 22px !important;
+    height: 4px !important;
+  }
+  .jumbotron {
+    background: none;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  .jumbotron h1 {
+    font-size: 28px;
+  }
+  .jumbotron p {
+    margin-bottom: -4px;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 11px;
+  }
+  .jumbotron .btn {
+    font-size: 16px;
+    width: 93%;
+    padding-top: 10px;
+    padding-bottom: 13px;
+  }
+  section {
+    padding-top: 0;
+    padding-bottom: 29px;
+    margin-top: 0;
+  }
+  section .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section .row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  section h3 {
+    margin-left: 14%;
+    text-indent: -7%;
+    width: 91% !important;
+  }
+  section span.fa {
+    padding-right: 7%;
+  }
+  section span.glyphicon {
+    padding-right: 5%;
+  }
+  section sup {
+    margin-left: -3%;
+    padding-right: 3%;
+  }
+  section p {
+    margin-left: 13% !important;
+    width: 91% !important;
+    margin-top: 14px;
+    margin-bottom: 10px;
+  }
+  section p + p {
+    width: 40% !important;
+  }
+  section .col-sm-12.col-md-12.col-lg-4 {
+    border-top: none;
+  }
+  section .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  footer #social {
+    display: block;
+  }
+}
