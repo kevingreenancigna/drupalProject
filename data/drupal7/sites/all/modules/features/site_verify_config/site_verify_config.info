@@ -1,0 +1,9 @@
+name = Site Verify Config
+description = Permissions for site verification module
+core = 7.x
+package = Other
+dependencies[] = features
+dependencies[] = site_verify
+features[features_api][] = api:2
+features[user_permission][] = administer site verify
+project path = sites/all/modules/features

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Article Config feature.
+ */
+
+include_once 'article_config.features.inc';

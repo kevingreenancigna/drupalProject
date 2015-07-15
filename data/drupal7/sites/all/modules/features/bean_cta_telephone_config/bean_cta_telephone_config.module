@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Bean CTA Telephone Config feature.
+ */
+
+include_once 'bean_cta_telephone_config.features.inc';
