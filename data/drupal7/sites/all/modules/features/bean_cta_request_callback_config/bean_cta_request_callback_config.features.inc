@@ -11,6 +11,9 @@ function bean_cta_request_callback_config_ctools_plugin_api($module = NULL, $api
   if ($module == "bean_admin_ui" && $api == "bean") {
     return array("version" => "5");
   }
+  if ($module == "ds" && $api == "ds") {
+    return array("version" => "1");
+  }
   if ($module == "strongarm" && $api == "strongarm") {
     return array("version" => "1");
   }

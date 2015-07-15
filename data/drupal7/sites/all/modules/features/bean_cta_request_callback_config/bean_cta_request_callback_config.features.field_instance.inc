@@ -18,7 +18,7 @@ function bean_cta_request_callback_config_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
@@ -53,14 +53,14 @@ function bean_cta_request_callback_config_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'url',
         'settings' => array(
-          'nofollow' => FALSE,
-          'trim_length' => 80,
+          'nofollow' => 0,
+          'trim_length' => '',
         ),
         'type' => 'url_default',
-        'weight' => 0,
+        'weight' => 2,
       ),
     ),
     'entity_type' => 'bean',
