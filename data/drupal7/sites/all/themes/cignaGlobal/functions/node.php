@@ -18,7 +18,6 @@ function cignaGlobal_preprocess_node(&$vars){
     if(function_exists($func_view_mode)) $func_view_mode($vars);
 }
 
-
 function _cignaGlobal_preprocess_node_landing_page(&$vars) {
     drupal_add_css(drupal_get_path('theme', 'cignaGlobal') . '/css/font-awesome.css',
         array(
@@ -33,7 +32,6 @@ function _cignaGlobal_preprocess_node_landing_page(&$vars) {
  */
 function _cignaGlobal_preprocess_node_landing_page_landing_page_1(&$vars) {
     //$vars['content']['#attached']['css'][] = drupal_get_path('theme', 'cignaGlobal') . '/css/landing1.css';
-
     //add attributes to the CTA button
     if(!empty($vars['content']['field_cta_button']['#items']) &&
         is_array($vars['content']['field_cta_button']['#items'])) {

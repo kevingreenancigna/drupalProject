@@ -18,29 +18,31 @@ function cignaGlobal_menu_tree($variables) {
 function cignaGlobal_menu_link($variables) {
     $element = $variables['element'];
     $sub_menu = '';
+    
+    // Temporary workaround for menu_block overrides apparently not working.
+    // @see bootstrap_menu_link().
+    if (($element['#original_link']['menu_name'] == 'menu-language-switcher')) {
+        unset($element['#attributes']['class']);
+        unset($element['#attributes']['title']);
 
-    /*if ($element['#below']) {
-        $sub_menu = drupal_render($element['#below']);
-    }*/
-    unset($element['#attributes']['class']);
-    unset($element['#attributes']['title']);
+        if ((!empty($element['#original_link']['depth'])) && ($element['#original_link']['depth'] == 1)) {
+            // Add our own wrapper.
+            unset($element['#below']['#theme_wrappers']);
+            $sub_menu = '<ul class="dropdown-menu" role="menu">' . drupal_render($element['#below']) . '</ul>';
+            // Generate as standard dropdown.
+            $element['#title'] = '<span class="fa fa-globe"> </span><span class="language">' . t('Language') . ' : </span>' .
+                $element['#title'] . ' <span class="caret"></span>';
 
-    if ((!empty($element['#original_link']['depth'])) && ($element['#original_link']['depth'] == 1)) {
-        // Add our own wrapper.
-        unset($element['#below']['#theme_wrappers']);
-        $sub_menu = '<ul class="dropdown-menu" role="menu">' . drupal_render($element['#below']) . '</ul>';
-        // Generate as standard dropdown.
-        $element['#title'] = '<span class="fa fa-globe"> </span><span class="language">' . t('Language') . ' : </span>' .
-            $element['#title'] . ' <span class="caret"></span>';
+            $element['#attributes']['class'][] = 'dropdown';
+            $element['#localized_options']['html'] = TRUE;
 
-        $element['#attributes']['class'][] = 'dropdown';
-        $element['#localized_options']['html'] = TRUE;
-
-        $element['#localized_options']['attributes']['class'][] = 'dropdown-toggle';
-        $element['#localized_options']['attributes']['role'] = 'button';
-        $element['#localized_options']['attributes']['aria-expanded'] = 'false';
-        $element['#localized_options']['attributes']['data-toggle'] = 'dropdown';
+            $element['#localized_options']['attributes']['class'][] = 'dropdown-toggle';
+            $element['#localized_options']['attributes']['role'] = 'button';
+            $element['#localized_options']['attributes']['aria-expanded'] = 'false';
+            $element['#localized_options']['attributes']['data-toggle'] = 'dropdown';
+        }
     }
+
 
 
     $output = l($element['#title'], $element['#href'], $element['#localized_options']);
