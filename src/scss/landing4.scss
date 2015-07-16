@@ -2,35 +2,9 @@ body {
   background: #f4f4f4;
 }
 
-.btn {
-  border-radius: 0 !important;
-}
+@import "modules--landing/buttons--landing";
+@import "modules--landing/nav--landing";
 
-nav {
-  background: #fff !important;
-}
-
-nav .navbar-brand {
-  height: auto;
-  line-height: auto;
-}
-
-nav .navbar-text {
-  color: #024671 !important;
-  line-height: 38px;
-}
-
-nav .dropdown-toggle {
-  color: #024671 !important;
-}
-
-nav .navbar-nav > li > a {
-  line-height: 38px;
-}
-
-nav .icon-bar {
-  background: #007ec6 !important;
-}
 
 .jumbotron {
   background: #f4f4f4;
@@ -143,19 +117,7 @@ section .row {
   margin-bottom: 10px;
 }
 
-footer {
-  background: #f4f4f4;
-  color: #0d7ec4;
-  text-align: center;
-  white-space: nowrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-footer #social {
-  text-align: center;
-  display: inline-flex;
-}
+@import "modules--landing/footer--landing";
 
 @media (max-width: 1200px) {
   /*body {

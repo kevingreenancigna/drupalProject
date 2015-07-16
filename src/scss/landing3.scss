@@ -2,35 +2,8 @@ body {
   background: #7aa6c1;
 }
 
-.btn {
-  border-radius: 0 !important;
-}
-
-nav {
-  background: #fff !important;
-}
-
-nav .navbar-brand {
-  height: auto;
-  line-height: auto;
-}
-
-nav .navbar-text {
-  color: #024671 !important;
-  line-height: 38px;
-}
-
-nav .dropdown-toggle {
-  color: #024671 !important;
-}
-
-nav .navbar-nav > li > a {
-  line-height: 38px;
-}
-
-nav .icon-bar {
-  background: #007ec6 !important;
-}
+@import "modules--landing/buttons--landing";
+@import "modules--landing/nav--landing";
 
 .jumbotron {
   background: #7aa6c1;
@@ -129,23 +102,9 @@ section .row {
   margin-bottom: 10px;
 }
 
-footer {
-  background: none;
-  color: #fff;
-  text-align: center;
-  white-space: nowrap;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+@import "modules--landing/footer--landing";
 
-footer #social {
-  text-align: center;
-  display: inline-flex;
-}
 
-footer #social a {
-  color: #fff;
-}
 
 @media (max-width: 1200px) {
   nav .navbar-right {
