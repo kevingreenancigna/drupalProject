@@ -18,7 +18,7 @@ function cignaGlobal_menu_tree($variables) {
 function cignaGlobal_menu_link($variables) {
     $element = $variables['element'];
     $sub_menu = '';
-    
+
     // Temporary workaround for menu_block overrides apparently not working.
     // @see bootstrap_menu_link().
     if (($element['#original_link']['menu_name'] == 'menu-language-switcher')) {

@@ -18,8 +18,4 @@
  * @see template_preprocess_menu_block_wrapper()
  */
 ?>
-<div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
-  <ul class="nav navbar-nav navbar-right">
-    <?php print render($content); ?>
-  </ul>
-</div>
+<?php print render($content); ?>

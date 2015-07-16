@@ -73,26 +73,52 @@
  * @ingroup themeable
  */
 ?>
-<div class="layer">
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true"> <span class="sr-only"><?php print t('Toggle navigation'); ?></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><img alt="Brand" src="<?php print $logo; ?>"></a>
-            </div>
-            <?php if (!empty($page['navigation'])): ?>
-                <?php print render($page['navigation']); ?>
-            <?php endif; ?>
+<div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="hidden-xs">
+            <nav class="navbar navbar-default" id="top-nav2">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1" aria-expanded="true"><span
+                                class="sr-only"><?php print t('Toggle navigation'); ?></span> <span
+                                class="icon-bar"></span>
+                            <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                        <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
+                           rel="home"><img alt="Brand" src="<?php print $logo; ?>"></a>
+                    </div>
+                    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+                        <ul class="nav navbar-nav navbar-right">
+                        <?php if (!empty($page['navigation'])): ?>
+                            <?php print render($page['navigation']); ?>
+                        <?php endif; ?>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.container -->
+            </nav>
         </div>
-        <!-- /.container -->
-    </nav>
-    <?php print render($page['header']); ?>
-    <?php if ($tabs): ?>
-        <div class="container">
-            <div class="tabs">
-                <?php print render($tabs); ?>
+        <div class=" visible-xs">
+            <div class="navbar navbar-default" role="navigation" id="top-nav3">
+                <div class="container">
+                    <div class="navbar-header" id="navbar2">
+                        <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <a class="navbar-brand" href="#"><img alt="Brand" src="<?php print $logo; ?>"></a> </div>
+                </div>
             </div>
+            <!-- sidebar starts -->
+            <div class="col-xs-6 col-sm-3 sidebar-offcanvas showhide navbar-collapse" id="sidebar" role="navigation" ></div>
+            <!-- sidebar ends -->
         </div>
-    <?php endif; ?>
-    <?php print render($page['content']); ?>
+        <?php print render($page['header']); ?>
+        <?php if ($tabs): ?>
+            <div class="container">
+                <div class="tabs">
+                    <?php print render($tabs); ?>
+                </div>
+            </div>
+        <?php endif; ?>
+        <?php print render($page['content']); ?>
+    </div>
 </div>
+
