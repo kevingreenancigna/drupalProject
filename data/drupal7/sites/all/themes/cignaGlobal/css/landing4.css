@@ -1,0 +1,393 @@
+body {
+  background: #f4f4f4; }
+
+.btn {
+  border-radius: 0 !important; }
+
+nav {
+  background: #fff !important; }
+
+nav .navbar-brand {
+  height: auto;
+  line-height: auto; }
+
+nav .navbar-text {
+  color: #024671 !important;
+  line-height: 38px; }
+
+nav .dropdown-toggle {
+  color: #024671 !important; }
+
+nav .navbar-nav > li > a {
+  line-height: 38px; }
+
+nav .icon-bar {
+  background: #007ec6 !important; }
+
+.jumbotron {
+  background: #f4f4f4;
+  color: #8e8e8e;
+  padding-top: 12px;
+  padding-bottom: 10px; }
+
+.jumbotron h2 {
+  font-size: 80px;
+  line-height: 81px;
+  color: #0d7ec4;
+  font-weight: bold;
+  margin-bottom: 0px; }
+
+.jumbotron h3 {
+  font-size: 24px;
+  line-height: 63px;
+  color: orange;
+  font-weight: bold;
+  margin-top: 0px; }
+
+.jumbotron h4 {
+  font-size: 15px;
+  line-height: 23px; }
+
+.jumbotron h5 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold; }
+
+.jumbotron p {
+  font-size: 17px; }
+
+.jumbotron li {
+  font-size: 14px;
+  line-height: 31px; }
+
+.jumbotron .fa-li {
+  font-size: 16px;
+  line-height: 28px;
+  color: green; }
+
+.jumbotron #image {
+  float: right; }
+
+.jumbotron .img-circle {
+  background: #fff url(../images/light-world.png) left top no-repeat;
+  background-size: 440px 440px;
+  width: 440px;
+  height: 440px;
+  margin-bottom: 64px; }
+
+.jumbotron .btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 50%; }
+
+section {
+  background: #fff;
+  color: #024671;
+  padding-bottom: 20px; }
+
+section .fa {
+  padding-right: 15px; }
+
+section p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12%; }
+
+section sup {
+  color: #1682c5 !important;
+  padding-right: 4%;
+  margin-left: -8%; }
+
+section .glyphicon {
+  padding-right: 10px; }
+
+section .btn {
+  color: #fff;
+  width: 60%; }
+
+section span {
+  color: #1682c5; }
+
+section .btn {
+  color: #fff; }
+
+section .row {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+footer {
+  background: none;
+  color: #0d7ec4;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+footer #social {
+  text-align: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+footer {
+  background: none;
+  color: #0d7ec4;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+footer #social {
+  text-align: center;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+footer #social a {
+  color: #fff; }
+
+@media (max-width: 1200px) {
+  /*body {
+      background:#f1f1f1;
+      background: green;
+  }*/
+  nav .navbar-right {
+    width: 61%;
+    line-height: normal;
+    margin: 0;
+    margin-top: 85px; }
+  nav .navbar-text {
+    float: right;
+    line-height: 20px;
+    margin-top: -41px; }
+  nav .dropdown {
+    float: right;
+    margin-right: 5px;
+    margin-top: -92px; }
+  .jumbotron {
+    padding-bottom: 0px; }
+  .jumbotron h2 {
+    font-size: 65px;
+    line-height: 66px; }
+  .jumbotron .tagline {
+    font-size: 27px;
+    line-height: 86px;
+    float: left;
+    width: 100%; }
+  .jumbotron .clearfix {
+    font-size: 27px;
+    line-height: 30px;
+    float: left;
+    width: 100%; }
+  .jumbotron .clearfix:before {
+    margin-top: -19px; }
+  .jumbotron .img-circle {
+    background-size: 405px 405px;
+    width: 405px;
+    height: 405px;
+    margin-bottom: 111px; }
+  .jumbotron .fa-ul {
+    margin-left: 2em; }
+  .jumbotron .fa-li {
+    font-size: 16px;
+    line-height: 12px;
+    margin-top: 0; }
+  .jumbotron li {
+    white-space: normal;
+    line-height: 17px;
+    font-size: 12px;
+    margin-bottom: 9px; }
+  section {
+    padding-top: 35px;
+    padding-bottom: 40px; }
+  section h3 {
+    margin-left: 5.5%;
+    text-indent: -4%;
+    width: 30% !important;
+    margin-top: 35px; }
+  section .fa {
+    padding-right: 15px; }
+  section p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 30% !important;
+    margin-left: 0 !important; }
+  section sup {
+    padding-right: 4%;
+    margin-left: -10px; }
+  section .glyphicon {
+    padding-right: 10px; }
+  section p + p {
+    width: 30% !important; }
+  section .btn {
+    color: #fff;
+    width: 100%; }
+  footer #social {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex; } }
+
+@media (max-width: 992px) {
+  /*body {
+    background: blue;
+  }*/
+  .jumbotron h2 {
+    font-size: 54px;
+    line-height: 56px; }
+  .jumbotron h3 {
+    font-size: 22px;
+    line-height: 60px;
+    margin-top: 0px; }
+  .jumbotron h4 {
+    font-size: 17px;
+    line-height: 35px; }
+  .jumbotron .btn {
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .jumbotron h5 {
+    font-size: 23px;
+    line-height: 32px; }
+  .jumbotron #image {
+    float: right; }
+  .jumbotron .img-circle {
+    background-size: 350px 350px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 43px; }
+  .jumbotron .fa-ul {
+    margin-left: 5em; }
+  .jumbotron .fa-li {
+    font-size: 16px;
+    line-height: 12px;
+    margin-top: 0; }
+  .jumbotron li {
+    white-space: normal;
+    line-height: 26px;
+    font-size: 16px;
+    margin-bottom: 9px; }
+  section h3 {
+    margin-left: 5.5%;
+    text-indent: -5%;
+    width: 30% !important; }
+  section .fa {
+    padding-right: 15px; }
+  section p {
+    width: 43% !important;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 0 !important; }
+  section p + p {
+    width: 17% !important; }
+  section sup {
+    padding-right: 3% !important;
+    margin-left: -5% !important; }
+  section .glyphicon {
+    padding-right: 10px; }
+  section .btn {
+    width: 160%; }
+  footer #social {
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex; } }
+
+@media (max-width: 768px) {
+  /*body {
+    background: orange;
+  }*/
+  nav .navbar-text {
+    margin-top: -43px;
+    line-height: normal; }
+  nav .navbar-right {
+    width: auto;
+    margin-top: 0; }
+  nav .fa-globe {
+    display: none; }
+  nav .language {
+    display: none; }
+  nav .dropdown {
+    float: left;
+    margin-top: 0; }
+  nav .dropdown-toggle {
+    line-height: 20px;
+    padding: 0; }
+  nav .navbar-toggle {
+    margin-top: 17px;
+    border: none;
+    margin-right: 3px; }
+  nav .icon-bar {
+    width: 22px !important;
+    height: 4px !important; }
+  .jumbotron {
+    padding-bottom: 0px;
+    padding-left: 0;
+    padding-right: 0; }
+  .jumbotron .container {
+    padding-left: 0;
+    padding-right: 0; }
+  .jumbotron #image {
+    float: none;
+    padding: 0; }
+  .jumbotron .img-circle {
+    background-size: 260px 260px;
+    width: 260px;
+    height: 260px;
+    margin-bottom: 40px; }
+  .jumbotron h2 {
+    font-size: 40px;
+    line-height: 43px;
+    font-weight: bold; }
+  .jumbotron h3 {
+    font-size: 18px;
+    line-height: 52px; }
+  .jumbotron h4 {
+    font-size: 17px;
+    line-height: 22px; }
+  .jumbotron h5 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px; }
+  .jumbotron .btn {
+    margin-top: 26px;
+    margin-bottom: 27px;
+    width: 100%; }
+  .jumbotron .fa-ul {
+    margin-left: 2em; }
+  .jumbotron .fa-li {
+    font-size: 16px;
+    line-height: 12px;
+    margin-top: 0; }
+  .jumbotron li {
+    white-space: normal;
+    line-height: 17px;
+    font-size: 12px;
+    margin-bottom: 9px; }
+  section {
+    padding-left: 0;
+    padding-right: 0; }
+  section .container {
+    padding-left: 0;
+    padding-right: 0; }
+  section h3 {
+    margin-left: 14%;
+    text-indent: -7%;
+    width: 91% !important; }
+  section span.fa {
+    padding-right: 7%; }
+  section span.glyphicon {
+    padding-right: 5%; }
+  section sup {
+    margin-left: -3%;
+    padding-right: 3%; }
+  section p {
+    margin-left: 13% !important;
+    width: 91% !important;
+    margin-top: 14px;
+    margin-bottom: 10px; }
+  section p + p {
+    width: 40% !important; }
+  section .btn {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  footer #social {
+    display: block; } }

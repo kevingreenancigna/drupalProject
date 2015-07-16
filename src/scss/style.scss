@@ -2,11 +2,11 @@ $fa-font-path: "../fonts";
 @import '../../bower_components/components-font-awesome/scss/font-awesome';
 @import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'data/drupal7/sites/all/themes/cignaGlobal/scss/sprite';
-@import 'mixins';
-@import 'fonts';
-@import 'variables';
+@import 'base/mixins';
+@import 'base/fonts';
+@import 'base/variables';
 
-@import 'elements';
+@import 'base/elements';
 
 // commonly used components
 
@@ -23,7 +23,7 @@ $fa-font-path: "../fonts";
 // landing page specific styles
 // --- these will be imported ----
 
-@import 'bootstrap-override';
-@import 'helper';
+@import 'base/bootstrap-override';
+@import 'base/helper';
 
-@import 'shame';
+@import 'base/shame';
