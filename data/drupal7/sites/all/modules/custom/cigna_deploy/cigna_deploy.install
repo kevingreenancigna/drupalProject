@@ -23,6 +23,6 @@ function cigna_deploy_update_7002() {
 /**
  * Enable context modules
  */
-function cigna_deploy_update_7002() {
+function cigna_deploy_update_7003() {
     module_enable(array('context', 'context_ui'));
 }
