@@ -19,3 +19,10 @@ function cigna_deploy_update_7001() {
 function cigna_deploy_update_7002() {
     module_enable(array('url'));
 }
+
+/**
+ * Enable context modules
+ */
+function cigna_deploy_update_7002() {
+    module_enable(array('context', 'context_ui'));
+}
