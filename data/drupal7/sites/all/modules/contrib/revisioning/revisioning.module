@@ -303,7 +303,7 @@ function revisioning_menu_alter(&$items) {
   // Alter the 3 primary node page tabs: View tab, Edit tab, Revisions tab ...
   $items['node/%node']['access callback'] = '_revisioning_view_edit_access_callback';
   $items['node/%node']['access arguments'] = array('view', 1);
-  $items['node/%node']['page callback'] = '_revisioning_view';
+  //$items['node/%node']['page callback'] = '_revisioning_view';
   $items['node/%node']['page arguments'] = array(1);
   // This is the MENU_DEFAULT_LOCAL_TASK, so inherits the above.
   $items['node/%node/view']['title callback'] = '_revisioning_title_for_tab';
