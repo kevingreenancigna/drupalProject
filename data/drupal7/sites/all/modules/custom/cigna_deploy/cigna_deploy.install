@@ -26,3 +26,12 @@ function cigna_deploy_update_7002() {
 function cigna_deploy_update_7003() {
     module_enable(array('context', 'context_ui'));
 }
+
+/**
+* Enable Adminimal theme and dependencies
+*/
+function cigna_deploy_update_7004() {
+    module_enable(array('adminimal_admin_menu', '));
+    variable_set('admin_theme', 'adminimal');
+    variable_set('admin_menu_margin_top', '0');
+}
