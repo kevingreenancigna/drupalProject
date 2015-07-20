@@ -1,4 +1,24 @@
+.navbar {
+  display: none;
+}
+
+.cigna-logo {
+  margin: 0;
+}
+
+.toggle-nav {
+  @include font-size(96);
+  @extend .float--right;
+  margin-top: -18px;
+  color: $cignaGlobalPrimary1;
+  @include bp(normal) {
+    display: none;
+  }
+}
+
+// contains the logo and main nav
 .main-header {
-  background-color: $white;
-  padding-top: 10px;
+  padding: 20px 10px;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
 }

@@ -1,6 +1,15 @@
-body {
-  background: #84b2cd url(../images/backpackers.jpg) right top no-repeat;
-}
+$fa-font-path: "../fonts";
+@import '../../bower_components/components-font-awesome/scss/font-awesome';
+@import '../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'data/drupal7/sites/all/themes/cignaGlobal/scss/sprite';
+@import 'base/mixins';
+@import 'base/fonts';
+@import 'base/variables';
+@import "base/elements";
+
+//body {
+//  background:
+//}
 
 @import "modules--landing/buttons--landing";
 

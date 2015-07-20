@@ -1,4 +1,4 @@
-<div class="col-md-4">
+<div class="">
     <div class="well blue clearfix our-plans">
     	<!-- If title exists, print title -->
      	<?php if(!empty($title)): ?>

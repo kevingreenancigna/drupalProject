@@ -1,14 +1,11 @@
 // non-namespaced CSS elements
 
 body {
-  font-family: "proximaNovaRegular";
-  font-size: 14px;
-  color: #616161;
+  font-family: "proximaNovaRegular", Arial, sans-serif;
+  color: $grey;
   background-color: $white;
-  overflow-x: hidden;
 }
 
-h2 {
-  margin-top: 10px;
-  font-size: 1.6em;
+.shell {
+  padding: 20px;
 }

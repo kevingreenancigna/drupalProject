@@ -62,15 +62,15 @@
 
 // breakpoints
 @mixin bp($media) {
-  // /* ===== == = === 30em (480px) === = == ===== */
+
   @if $media == tablet {
     @media only screen and (min-width: $tablet) { @content; }
   }
-  // /* ===== == = === 37.5em (600px) === = == ===== */
+
   @else if $media == normal {
     @media only screen and (min-width: $normal) { @content; }
   }
-  // /* ===== == = === 48em (768px) === = == ===== */
+
   @else if $media == wide {
     @media only screen and (min-width: $wide) { @content; }
   }
