@@ -8040,6 +8040,12 @@ footer .copyright {
 .bold {
   font-weight: bold; }
 
+.float--left {
+  float: left; }
+
+.float--right {
+  float: right; }
+
 .insideContainerTrans {
   padding-top: 20px; }
 
