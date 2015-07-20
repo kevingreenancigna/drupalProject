@@ -85,7 +85,7 @@
                                 class="icon-bar"></span>
                             <span class="icon-bar"></span> <span class="icon-bar"></span></button>
                         <a class="navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"
-                           rel="home"><img alt="Brand" src="<?php print $logo; ?>"></a>
+                           rel="home"><h1 class="logo  svg-cigna-logo  svg-cigna-logo-dims"></h1></a>
                     </div>
                     <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
                         <ul class="nav navbar-nav navbar-right">
@@ -103,7 +103,7 @@
                 <div class="container">
                     <div class="navbar-header" id="navbar2">
                         <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-                        <a class="navbar-brand" href="#"><img alt="Brand" src="<?php print $logo; ?>"></a> </div>
+                        <a class="navbar-brand" href="#"><h1 class="logo  svg-cigna-logo  svg-cigna-logo-dims"></h1></a> </div>
                 </div>
             </div>
             <!-- sidebar starts -->
