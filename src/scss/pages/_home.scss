@@ -1,3 +1,32 @@
 .hero-home {
-  overflow: hidden;
+  background-color: #79A7C1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  @include bp(tablet) {
+    background-image: url('../images/main-image.jpg');
+    min-height: 519px;
+  }
+
+  &__header {
+    font-family: $proxima-semi;
+  }
+
+  &__btn {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  &__stars {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    .fa {
+      @include font-size(25);
+      margin-right: 5px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
