@@ -8,10 +8,11 @@ var autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
   return gulp.src(config.src)
-    .pipe(sourcemaps.init())
-    .pipe(sass(config.settings))
-    .on('error', handleErrors)
-    .pipe(autoprefixer({ browsers: ['last 2 version'] }))
-    .pipe(gulp.dest(config.dest))
-    .pipe(browserSync.reload({stream:true}));
+      .pipe(sourcemaps.init())
+      .pipe(sass(config.settings))
+      .on('error', handleErrors)
+      .pipe(autoprefixer({ browsers: ['last 2 version'] }))
+      .pipe(sourcemaps.write())
+      .pipe(gulp.dest(config.dest))
+      .pipe(browserSync.reload({stream:true}));
 });
