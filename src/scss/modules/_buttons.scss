@@ -1,6 +1,7 @@
 .btn-cigna-primary, .btn-cigna-primary:hover, .btn-cigna-primary:focus, .btn-cigna-primary.focus, .btn-cigna-secondary, .btn-cigna-secondary:hover, .btn-cigna-secondary:focus, .btn-cigna-secondary.focus, .btn-cigna-tertiary, .btn-cigna-tertiary:hover, .btn-cigna-tertiary:focus, .btn-cigna-tertiary.focus, .btn-cigna-quaternary, .btn-cigna-quaternary:hover, .btn-cigna-quaternary:focus, .btn-cigna-quaternary.focus, .btn-cigna-quaternary, .btn-cigna-quaternary:hover, .btn-cigna-quaternary:focus, .btn-cigna-quaternary.focus, .btn-cigna-quinary, .btn-cigna-quinary:hover, .btn-cigna-quinary:focus, .btn-cigna-quinary.focus {
-  font-family: "proximaSemiBold";
-  color: $white;
+  font-family: $proxima-semi;
+  font-weight: 700;
+  color: white;
   padding: 10px;
   letter-spacing: 2px;
   border-radius: 0;
@@ -9,26 +10,26 @@
 .btn-cigna-primary, .btn-cigna-primary:hover, .btn-cigna-primary:focus, .btn-cigna-primary.focus {
   background-color: $cignaGlobalSecondary2;
   border-color: $cignaGlobalSecondary2;
-  font-size: 24px;
+  @include font-size(24);
 }
 
 .btn-cigna-secondary, .btn-cigna-secondary:hover, .btn-cigna-secondary:focus, .btn-cigna-secondary.focus {
   background-color: $cignaGlobalSecondary1;
   border-color: $cignaGlobalSecondary1;
-  font-size: 18px;
+  @include font-size(18)
 }
 
 .btn-cigna-tertiary, .btn-cigna-tertiary:hover, .btn-cigna-tertiary:focus, .btn-cigna-tertiary.focus {
   background-color: $cignaGlobalPrimary1;
   border-color: $cignaGlobalPrimary1;
-  font-size: 14px;
+  @include font-size(14);
 }
 
 .btn-cigna-quaternary, .btn-cigna-quaternary:hover, .btn-cigna-quaternary:focus, .btn-cigna-quaternary.focus {
   color: $cignaGlobalPrimary2;
   background-color: $cignaGlobalSecondary4;
   border-color: $cignaGlobalSecondary4;
-  font-size: 14px;
+  @include font-size(14);
 }
 
 .btn-cigna-quinary, .btn-cigna-quinary:hover, .btn-cigna-quinary:focus, .btn-cigna-quinary.focus {
