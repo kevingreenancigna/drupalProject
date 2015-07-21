@@ -1,9 +1,10 @@
 // non-namespaced CSS elements
 
 body {
-  font-family: "proximaNovaRegular", Arial, sans-serif;
+  font-family: $proxima, Arial, sans-serif;
   color: $grey;
   background-color: $white;
+  @include font-size($base-font-size);
 }
 
 .shell {
