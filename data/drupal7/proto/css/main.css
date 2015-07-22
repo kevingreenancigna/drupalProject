@@ -61,6 +61,10 @@ h1, h2, h3, h4, h5 {
     background-color:#eef4f7;
 }
 
+.text-primary {
+  color: #1582c5;
+}
+
 .text-warning {
   color: #f5ab4a !important;
 }
@@ -373,10 +377,40 @@ h1, h2, h3, h4, h5 {
     width: 47%;
 }
 
-#smartphone-image {
-  background: url(../images/smartphone-image.png) no-repeat right top;
+
+#smiling-woman {
+  background: url(../images/what-is-expatriate.png) no-repeat right top;
   background-size: cover;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#smiling-woman h2.text-warning {
+    line-height: inherit;
+}
+
+
+#mother-and-child {
+  background: #EEF4F7 url(../images/we-are-different.png) no-repeat 1px bottom;
+  background-size: inherit;
+  padding-bottom: 20px;
+  background-size: 728px;
+  padding-top: 0;
+  padding-left: 34px;
+}
+
+
+#smartphone-image {
+  background: #EEF4F7 url(../images/smartphone-image.png) no-repeat -72px -3px;
+  background-size: 812px;
+  padding-bottom: 39px;
+  padding-top: 0px;
+  margin-bottom: 27px;
+}
+
+#smartphone-image #banner-text {
+  margin-left: -2px;
+  margin-top: 23px;
 }
 
 
@@ -497,7 +531,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .left-col .bg-info h4 {
-    margin-bottom: -8px;
+    /* margin-bottom: -8px; */
 }
 
 .left-col .bg-info hr {
@@ -510,8 +544,8 @@ h1, h2, h3, h4, h5 {
 
 .left-col .bg-info .col-md-6 .btn {
     /* margin-left: 33px; */
-    padding-left: inherit;
-    padding-right: inherit;
+    /* padding-left: inherit; */
+    /* padding-right: inherit; */
 }
 
 .left-col .bg-info .col-md-6 {
@@ -541,7 +575,8 @@ h1, h2, h3, h4, h5 {
     font-size: 30px;
     font-family: 'proximaNovaLight', Arial, Helvetica, sans-serif;
     font-weight: 300;
-    line-height: 29px;
+    line-height: 65px;
+    margin-bottom: -16px;
 }
 
 .left-col h3 {
@@ -589,6 +624,15 @@ h1, h2, h3, h4, h5 {
 .left-col form.col-md-12.bg-info {
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.left-col .bg-info form .col-md-6 p {
+    margin-top: 8px;
+}
+
+.left-col .row .info .text-right img {
+    margin-top: 17px;
+    margin-left: -35px;
 }
 
 #content #accordion .panel-heading {
@@ -727,6 +771,7 @@ h1, h2, h3, h4, h5 {
 }
 #quote-bar {
     background-color: #0E6EA8;
+    margin-top: 46px;
 }
 #quote-bar h1 {
     color: #fff;
@@ -829,6 +874,7 @@ h1, h2, h3, h4, h5 {
 #links .panel-group {margin-bottom:0; }
 #links .panel-default {
     border: none;
+    box-shadow: none;
 }
 #links .panel-default>.panel-heading {
     color: #fff;

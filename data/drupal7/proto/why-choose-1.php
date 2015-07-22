@@ -11,7 +11,7 @@
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/fix.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
+<link href="css/theme.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -56,37 +56,54 @@
         <div class="row">
           <div class="container">
             <div class="col-12 col-sm-12 col-lg-8 left-col">
-              <h2>For the people</h2>
-              <p>Cigna is one of the largest health service organisations in the United States. Our mission is to help the people we serve improve their health, wellbeing and sense of security. Cigna operating subsidiaries provide an integrated suite of medical, dental, behavioural health, pharmacy and vision care benefits, as well as group and individual life, accident and disability insurance, to millions of people throughout the United States and around the world. </p>
-              <p>From our roots in the US cities of Philadelphia, Pennsylvania and Hartford, Connecticut, Cigna has grown to become a global organisation. Today, we have 60 million customer relationships across the world and support this with a worldwide staff of 30,000 employees.</p>
-              <div class="jumbotron" id="smiling-people">
-                <h3>You are covered wherever you go</h3>
-                <p>Cigna International provides access to superior quality healthcare and related financial protection programmes to employers, affinity groups and individuals around the globe.</p>
-              </div>
-              <h2>Leaders in Global Healthcare Benefits</h2>
-              <p>With more than 30 years international experience, Cigna is the leader in providing global healthcare benefits to multi-national businesses. In fact, we cover over 700,000 expatriates for more than 2,000 clients. </p>
-              <h4>We offer:</h4>
+              <div class="jumbotron col-lg-12" id="mother-and-child">
+                <div class="col-lg-7">  
+                <h2 class="text-warning">We are different</h2>
+                <p>Our customers choose us for their international health insurance because only Cigna Global Health Options gives you all the following benefits:</p>
+                    
+                    <ul class="fa-ul">
+                  <li><i class="fa-li glyphicon glyphicon-ok text-success" aria-hidden="true"></i>Access to our global network of trusted hospitals, clinics and doctors</li>
+                  <li><i class="fa-li glyphicon glyphicon-ok text-success" aria-hidden="true"></i>The flexibility to tailor a paln to suit your individual needs</li>
+                  <li><i class="fa-li glyphicon glyphicon-ok text-success" aria-hidden="true"></i>The convenience and confidence of Cigna customer care</li>
+                  <li><i class="fa-li glyphicon glyphicon-ok text-success" aria-hidden="true"></i>The reassurance of our experience in delivering international healthcare</li>
+                  <li><i class="fa-li glyphicon glyphicon-ok text-success" aria-hidden="true"></i>Globally compliant healthcare plans</li>
+                </ul>
+                  </div>
+                </div>
               <div class="clearfix">
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                  <ul class="fa-ul">
-                    <li><i class="fa-li fa fa-check"></i>Individual international healthcare plans</li>
-                    <li><i class="fa-li fa fa-check"></i>Corporate international plans</li>
-                    <li><i class="fa-li fa fa-check"></i>Corporate travel plan</li>
-                    <li><i class="fa-li fa fa-check"></i>Dental and vision plans</li>
+              <h2>Our mission</h2>
+                                  <p>Everything we do is around our mission to help you improve your health, wellbeing and sense of security. Our customer care promise:</p>
+                    <ul class="fa-ul">
+                    <li><i class="fa-li fa fa-check"></i>You can seek help for free any hour of day or night</li>
+                    <li><i class="fa-li fa fa-check"></i>You can talk to the right person at the right time. Our customer care team will direct your call to one of our healthcare experts</li>
+                    <li><i class="fa-li fa fa-check"></i>You will have instant and easy access to healthcare facilities and professionals around the world</li>
+                    <li><i class="fa-li fa fa-check"></i>You'll be reimbursed, wherever possible, within five days of receiving your claim. On the rare occasion you have to pay for your treatment directly</li>
+                    <li><i class="fa-li fa fa-check"></i>You can receive payment in over 135 currencies</li>
                   </ul>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-6">
-                  <ul class="fa-ul">
-                    <li><i class="fa-li fa fa-check"></i>International employee assistance programme</li>
-                    <li><i class="fa-li fa fa-check"></i>Continuation options</li>
-                    <li><i class="fa-li fa fa-check"></i>Wellbeing programmes</li>
-                  </ul>
+              <h2>Our experience</h2>
+              <p>Cigna has worked in international health insurance for more than 30 years. Today, we have 60 million customer relationships around the world. Looking after them is an international workforce of 30,000 people, plus a network of more than 1 million hospitals, physicians, clinics and health and wellness specialists.</p>
+<p>Our full-time, clinical team is led by physicians. We have years of experience in dealing with varied and unique clinical and service situations worldwide.<br>
+                Our vast experience means we provide high standards of healthcare, regardless of where you are in the world.</p>
+              <button type="button" class="btn btn-success btn-block">Our international health insurance plans</button>
+
                 </div>
               </div>
-              <h2>What is International Health Insurance?</h2>
-              <p>Expatriate health insurance is designed for those who are living and working abroad.  It is designed to give you and your family access to the best healthcare possible, wherever you are in the world.</p>
-                            <p>The cost of healthcare abroad can be extremely expensive and without a comprehensive expatriate health plan in place, you may find that you are out of pocket if you require any medical treatment. Consider what would happen if you were working abroad and required an emergency procedure or needed to visit the doctor. Without overseas health insurance, you may be liable for any expenses related to the treatment you received. A worldwide medical plan will give you peace of mind and confidence that your health and wellbeing are covered when living and working in a foreign country.</p>
-              <p><a class="btn btn-success btn-lg" href="#">More</a></p>
+          <div class="col-md-12">
+            <div class="row">
+              <h4 class="text-primary pull-left">Customer Reviews</h4><img src="images/reevoo-logo.png" class="pull-right" width="130" height="26" alt=""/> </div>
+            <div class="row"><i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i>
+              <p>It's a very expensive product but you buy it knowing that you will receive quality service.</p>
+              <p>Written on January 26, 2015</p>
+            </div>
+            <div class="row"><i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i> <i class="fa fa-star text-warning"></i>
+              <p>As stated above, everything so far has been excellent. Provided I maintain the plan, it follows that there may very well be a claim one day. At that time, we will discover exactyl how good the policy is. However, I have no reason to believe it will be other than 'As sold' which is why we decided to proceed with the purchase. It may not be possible as this is 'Health' insurance policy and not a 'Life' insurance policy, but I might suggest that the inclusion of an Optional 'Death Benefit' would have been a very good selling point. Of course, this would require an additional premium but being 'Optional' the purchaser would have ther choice to include it or not.</p>
+              <p>Written on January 28, 2015</p>
+              <button type="button" class="btn btn-primary">More Reviews</button>
+              </div>
+          </div>
             </div>
             <?php include "include-right-col-1.php";?>
 

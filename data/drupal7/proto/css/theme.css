@@ -63,9 +63,9 @@
 	background: #eef4f7 url(../images/you-are-covered.png) no-repeat right top;
 }
 #content p {
-	font-size: 14px;
-	line-height: 23px;
-	margin-bottom: 29px;
+	/* font-size: 14px; */
+	/* line-height: 23px; */
+	/* margin-bottom: 29px; */
 }
 
 #core-cover {
