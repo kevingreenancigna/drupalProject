@@ -1,0 +1,21 @@
+@media (min-width: 768px) and (max-width: 1199px) {
+
+    .panel-default>.panel-heading {
+        background-color: pink;   
+    }
+    /*nav navbar-nav navbar-right*/
+    .nav.navbar-nav.navbar-right {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+
+    /* #navbar2 .navbar-toggle */
+    .navbar-header, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}

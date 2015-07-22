@@ -1,0 +1,52 @@
+
+* {
+	border-radiius: 0;	
+}
+
+.panel-group {
+    margin-bottom: 0;
+}
+.panel-group .panel+.panel {
+  margin-top: 0px;
+}
+
+.col-sm-12.col-md-6.col-lg-9 {
+    padding: 0;
+}    
+.panel-body {
+  padding: 0;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.col-sm-12.col-md-6.col-lg-9 {
+    padding-left: 0;
+}
+
+.col-md-12.col-lg-4 {
+    padding-left: 0;
+}
+
+@media (max-width: 992px) {
+.col-sm-12.col-md-6.col-lg-3 {
+    padding-left: 0;
+}
+    
+    
+}
+
+
+@media (max-width: 768px) {
+    
+.col-sm-12.col-md-6.col-lg-3 {
+    padding-left: 0;
+}
+
+a.navbar-brand {
+    padding-left: 0;
+} 
+
+}
