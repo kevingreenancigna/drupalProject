@@ -1,9 +1,9 @@
     <div id="quote-bar" class="container-fluid hidden-xs">
       <div class="container ">
-        <div class="col-xs-8 col-md-8">
+        <div class="col-xs-8 col-md-6 col-lg-8">
           <h3>Premium International Health Insurance from Cigna</h3>
         </div>
-        <div class="col-xs-4 col-md-4 text-align">
+        <div class="col-xs-4 col-md-6 col-lg-4 text-align">
           <button type="button" class="btn btn-warning btn-lg center-block">Get a Quote</button>
         </div>
       </div>

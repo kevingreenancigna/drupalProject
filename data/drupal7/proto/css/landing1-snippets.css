@@ -1,0 +1,586 @@
+body {
+	  /* background: #84b2cd url(../images/backpackers-2.jpg) right top no-repeat; */
+}
+.btn {
+	border-radius: 0 !important;
+}
+.layer {
+	background-color: rgba(122, 166, 193, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+	bottom: 0%;	
+}
+.layer2 {
+  background-color: white;
+  opacity: 0.4;
+  top: 46%;
+  left: 0;
+  right: 0;
+  bottom: 29%;
+  position: absolute;
+}
+
+
+
+.jumbotron {
+	background:none;
+	color:#fff;	
+}
+.jumbotron h1 {
+  font-size: 45px;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron .btn {
+  font-size: 18px;
+  width: 19%;
+}
+
+section {
+  background: none;
+  color: #656c71;
+  padding-bottom: 20px;
+}
+section .container-fluid {
+  /* background: white; */
+  /* opacity: 0.3; */
+  filter: alpha(opacity=40); /* For IE8 and earlier */	
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+section .fa {
+  padding-right: 15px;
+  color: #337ab7;
+}
+section p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 12%;
+}
+section sup {
+  padding-right: 4%;
+  margin-left: -8%;
+  color: #337ab7;
+}
+section .glyphicon {
+  padding-right: 10px;
+  color: #337ab7;
+}
+section span {
+	color:#fff;	
+}
+section .btn {
+  color: #fff;
+  width: 60%;
+}
+section .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: none;
+  color: #0d7ec4;
+  text-align: center;
+  white-space: nowrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer #social {
+  text-align: center;
+  display: inline-flex;	
+}
+
+@media (max-width: 1200px) {
+
+body {
+	background: #84b2cd url(../images/backpackers-2.jpg) right top no-repeat;
+}
+
+nav .navbar-right {
+    width: 61%;
+    line-height: normal;
+    margin: 0;
+    margin-top: 85px;
+}
+nav .navbar-text {
+    float: right;
+    line-height: 20px;
+    margin-top: -41px;
+}
+nav .dropdown {
+    float: right;
+    margin-right: 5px;
+    margin-top: -92px;
+}
+
+.layer {
+    bottom: 2%;	
+}
+.layer2 {
+  top: 55%;
+  bottom: 8%;
+;
+}
+
+.jumbotron h1 {
+    font-size: 65px;
+}
+.jumbotron p {
+  margin-bottom: -6px;
+  font-size: 31px;
+  font-weight: 200;
+}
+.jumbotron .btn {
+  font-size: 33px;
+  width: 36%;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+
+section {
+  padding-top: 35px;
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+section h3 {
+  margin-left: 5.5%;
+  text-indent: -4%;
+  width: 30% !important;
+  margin-top: 35px;
+}
+section .fa {
+  padding-right: 15px;
+}
+section p {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  width: 30% !important;
+  margin-left: 0 !important;
+}
+section sup {
+  padding-right: 4%;
+  margin-left: -10px;
+}
+section .glyphicon {
+  padding-right: 10px;
+}
+section p + p {
+	width: 30% !important
+}
+section .btn {
+  width: 100%;
+  color: #337ab7;
+  background: #fff;
+  border: none;
+}
+section .col-sm-12.col-md-12.col-lg-4 {
+  border-top: 1px solid #fff;
+}
+
+section .col-sm-12.col-md-12.col-lg-4:first-child {
+  border-top: none;
+}
+
+footer {
+	background: #fff;	
+}
+footer #social {
+  display: inline-flex;	
+}
+
+}
+@media (max-width: 992px) {
+
+body {
+	background: #84b2cd url(../images/backpackers-2.jpg) right top no-repeat;
+	/* background-size: 1428px; */
+}
+
+.navbar-brand > img {
+  display: block;
+  height: 54px;
+  margin-top: -3px;
+}
+
+span[class*="fa-angle"] {
+	float: right;
+}
+
+.layer {
+    /* height: 83%; */	
+}
+.layer2 {
+  top: 55%;
+  left: 0;
+  right: 0;
+  bottom: 0%;
+ }
+
+.jumbotron h1 {
+    font-size: 53px;
+}
+.jumbotron p {
+  margin-bottom: -6px;
+  font-size: 26px;
+  font-weight: 200;
+}
+.jumbotron .btn {
+  font-size: 20px;
+  width: 33%;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+
+section {
+		background-color: rgba(255, 255, 255, 0.5);
+}
+section h3 {
+  margin-left: 5.5%;
+  text-indent: -5%;
+  width: 30% !important;
+}
+section .fa {
+  padding-right: 15px;
+}
+section p {
+  width: 43% !important;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 0 !important;
+}
+section p + p {
+  width: 17% !important;
+}
+section sup {
+  padding-right: 3% !important;
+  margin-left: -5% !important;
+}
+section .glyphicon {
+  padding-right: 10px;
+}
+section .btn {
+    width: 160%;;
+}
+section .col-sm-12.col-md-12.col-lg-4 {
+  border-top: 1px solid #fff;
+}
+
+footer #social {
+  display: inline-flex;	
+}
+
+}
+@media (max-width: 768px) {
+	
+.navbar-brand > img {
+  display: block;
+  height: 36px;
+  margin-top: -3px;
+}	
+	
+.row-offcanvas {
+	position: relative;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.row-offcanvas-right .sidebar-offcanvas {
+	right: -100%;
+	margin-right: 0px;
+	background-color: #337ab7;
+}
+.row-offcanvas-left .sidebar-offcanvas {
+	left: -75%;
+}
+.row-offcanvas-right.active {
+	right: 90%;
+}
+.row-offcanvas-left.active {
+	left: 75%;
+}
+    
+.navbar.navbar-default {
+    /* margin-bottom: 0px; */   
+}
+    
+.sidebar-offcanvas {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#sidebar {
+	padding-right: 80px;
+}
+#sidebar .btn {
+	color: #337ab7;
+}
+#sidebar li a:focus {
+	color: #fff;
+	background: #337ab7;
+}
+#sidebar li a:hover {
+	color: #fff;
+	background: #337ab7;
+}
+#sidebar li:focus {
+	color: #fff;
+	background: #337ab7;
+}
+#sidebar li:hover {
+	color: #fff;
+	background: #337ab7;
+}
+#sidebar li span:focus {
+	color: #fff;
+	background: #337ab7;
+}
+#sidebar li span:hover {
+	color: #fff;
+	background: #337ab7;
+}
+#sidebar #language a.dropdown-toggle {
+	margin-right: -5px;
+}
+#sidebar .caret.pull-right {
+	margin-right: -5px;
+	margin-top: 9px;
+}
+#sidebar .form-control {
+	background-color: #0a6093;
+	border: 1px solid #0e6fa9;
+	width: 94%;
+	color: #fff !important;
+	margin-left: 10px;
+}
+#sidebar .navbar-nav li {
+	border-bottom: 1px solid #fff;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+#sidebar .navbar-nav li:first-child {
+  margin-bottom: 2px;
+  margin-right: 9px;
+}
+#sidebar .dropdown-toggle {
+	padding-left: 0px;
+	background: #337ab7;
+}
+#sidebar a {
+	padding-left: 0px;
+	white-space: normal;
+}
+#sidebar .fa {
+	margin-right: -3px;
+	float: right;
+}
+#sidebar .list-unstyled > li {
+	border: none;
+	margin-left: 0px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #0c659c;
+}
+#sidebar .list-unstyled > li > i {
+	border: none;
+	margin-left: 0px;
+}
+#sidebar .fa-ul {
+	padding-left: 0px;
+	margin-left: 2px;
+	margin-bottom: 35px;
+}
+#sidebar .fa-ul li {
+	border: none;
+	line-height: 20px;
+}
+#sidebar h4 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+#sidebar i {
+	line-height: 23px;
+}
+#sidebar span.fa.fa-globe {
+	margin-right: 3px;
+	float: left;
+	padding-right: 4px;
+	line-height: 21px;
+}
+#sidebar .dropdown-menu {
+	width: 105%;
+	padding-right: 0;
+}
+#sidebar .dropdown-menu li {
+	border: none;
+	line-height: 34px !important;
+	margin-bottom: 10px;
+}
+#sidebar li.dropdown.open {
+	background: #337ab7;
+	color: #fff;
+}
+#sidebar li.dropdown.open a:hover {
+	color: #fff;
+	background: #337ab7;
+}
+
+#sidebar li.divider {
+  display: none;
+}
+#sidebar li a:hover {
+	color: orange;
+	background: #337ab7;
+}
+#sidebar p {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 10px;
+	text-align: right;
+	margin-right: -5px;
+}
+
+#sidebar form.navbar-form.navbar-left {
+	border: none !important;
+}
+#sidebar .col-lg-8.col-md-6.col-xs-6 {
+	margin-right: -30px;
+}
+#navbar .navbar.navbar-default {
+	margin-bottom: -22px;
+}
+div#navbar2 {
+	background-color: #fff;
+}
+#search2 .fa-search {
+	position: absolute;
+	top: 19px;
+	right: 20px;
+}	
+	
+.layer {
+    height: 178%;	
+}
+.layer2 {
+display: none;
+}
+	
+body {
+background: none;
+}
+
+nav .navbar-text {
+  margin-top: -39px;
+  line-height: normal;
+}
+nav .navbar-right {
+    width: auto;
+    margin-top: 0;
+}
+nav .fa-globe {
+    display: inline-block;
+}
+nav .language {
+    display: inline-block;
+}
+nav .dropdown {
+  float: left;
+  margin-top: -64px;
+  display: inline-flex;
+  margin-right: -11px;
+}
+nav .dropdown-toggle {
+    line-height: 20px;
+    padding: 0;
+}
+nav .navbar-toggle {
+  margin-top: 17px;
+  border: none;
+  margin-right: 3px;
+}
+nav .icon-bar {
+  width: 22px !important;
+  height: 4px !important;
+}
+
+.jumbotron {
+  background: none;
+  color: #fff;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.jumbotron h1 {
+  font-size: 28px;
+}
+.jumbotron p {
+  margin-bottom: -4px;
+  font-size: 14px;
+  font-weight: 200;
+  margin-top: 11px;
+}
+.jumbotron .btn {
+  font-size: 16px;
+  width: 93%;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+
+section {
+  padding-top: 0;
+  padding-bottom: 29px;
+  margin-top: 0;
+}
+
+section .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+section .row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+section h3 {
+  margin-left: 14%;
+  text-indent: -7%;
+  width: 91% !important;
+}
+section span.fa {
+  padding-right: 7%;
+}
+section span.glyphicon {
+  padding-right: 5%;
+}
+section sup {
+  margin-left: -3%;
+  padding-right: 3%;
+}
+section p {
+  margin-left: 13% !important;
+  width: 91% !important;
+  margin-top: 14px;
+  margin-bottom: 10px;
+ }
+section p + p {
+  width: 40% !important;
+}
+section .col-sm-12.col-md-12.col-lg-4 {
+  border-top: none;
+}
+section .btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer #social {
+  display: block;	
+}
+
+}
