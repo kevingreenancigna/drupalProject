@@ -11,7 +11,6 @@
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
-
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -27,7 +26,7 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 
 <div class="container-fluid">
-  <div class="row row-offcanvas row-offcanvas-right ">
+  <div class="row row-offcanvas row-offcanvas-right active">
 <!-- top-nav starts -->
          <div id="top-nav" class="visible-lg">
            <?php include "include-top-nav.php";?>
@@ -40,8 +39,8 @@
      </div>
 <!-- navbar2 ends -->
 <!-- sidebar starts -->
-      <div class="col-xs-6 col-sm-3 sidebar-offcanvas showhide navbar-collapse" id="sidebar" role="navigation" >
-        <?php include "include-sidebar.php";?>
+      <div class="sidebar-offcanvas showhide navbar-collapse" id="sidebar" role="navigation" >
+        <?php include "include-sidebar-3.php";?>
       </div>
 <!-- sidebar ends -->
     </div>
@@ -104,6 +103,6 @@
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
 <script src="js/bootstrap.js"></script>
 <script src="js/off-canvas.js"></script>
-<script src="js/responsive.js"></script>
+<!--<script src="js/responsive.js"></script>-->
 </body>
 </html>

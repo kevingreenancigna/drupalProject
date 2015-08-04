@@ -72,14 +72,14 @@
                 <li> <i class="fa-li fa fa-twitter"> </i> Follow us on Twitter</li>
             </ul>
           </div>
-           <div class="col-lg-8 col-md-6 col-xs-5">
+           <div class="col-lg-8 col-md-6 col-xs-6">
               <p>
-                <button type="button" class="btn btn-default">Claims</button>
+                <button type="button" class="btn btn-default btn-block">Claims</button>
               </p>
             </div>
-            <div class="col-lg-8 col-md-6 col-xs-5">
+            <div class="col-lg-8 col-md-6 col-xs-6">
               <p>
-                <button type="button" class="btn btn-default">Client Login</button>
+                <button type="button" class="btn btn-default btn-block">Client Login</button>
               </p>
             </div>
           </ul>

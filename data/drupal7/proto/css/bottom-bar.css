@@ -1,0 +1,208 @@
+#links {
+    color: #fff;
+    background: #1582C5;
+    padding: 30px 25px 30px 25px;
+}
+#links .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+#links #quote-box h3 {
+    font-size: 30px;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+#links #quote-box p {
+    font-size: 18px;
+    margin-top:0;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#links #quote-box .btn {
+    width: 100%;
+    font-size: 24px;
+    margin: 52px 0px 50px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#links .col-md-4 {
+    padding:0;
+    margin-left: auto;
+}
+
+#links a {
+    color: #fff;
+    list-style: none;
+}
+#links li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#links .last li {
+    border: none;
+}
+#links .fa-angle-right {
+    display: none;
+}
+#links .fa-twitter {
+    margin-bottom: 70px;
+}
+
+#links h4[id*="-collapsible-list-group-"] a {
+    color: #fff;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: hand;
+    text-decoration: none;
+    font-family: 'proximaNovaLight', 'Arial', 'Helvetica', sans-serif !important;
+    /* font-weight: 500; */
+}
+#links h4[id*="-collapsible-list-group-"] a:hover {
+    text-decoration: underline;
+    font-family: 'proximaNovaLight', Arial, Helvetica, sans-serif !important;
+    font-style: normal;
+}
+#links div[id*="collapseListGroupHeading"] {
+    color: #fff !important;
+    background-color: #1582C5 !important;
+    border: none;
+    padding-left: 0;
+}
+#links #collapseListGroupHeading4 {
+    display: block;
+}
+#links .panel-heading+.panel-collapse>.list-group {
+    border: none;
+}
+#links .list-group {
+    border: none;
+}
+#links .list-group-item {
+    /* border-bottom: 1px solid #116ba9 !important; */
+    border-top-color: #116ba9;
+    background-color: #1582C5;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'proximaNovaReg', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+#links .panel-group {
+    border: none;
+    margin-bottom:0;
+}
+#links .panel-default {
+    border: none;
+    box-shadow: none;
+}
+#links .panel-default>.panel-heading {
+    color: #fff;
+    background-color: #1582C5;
+    padding-left: 0;
+    font-size: 18px;
+    border-bottom: none;
+    font-weight:300;
+    font-style: normal;
+    font-family: 'proximaNovaReg', Arial, Helvetica, sans-serif,
+}
+#links .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    background-color: #1582C5;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+
+}
+#links #collapseListGroup1 {
+    border: none;
+}
+
+
+
+@media (max-width: 1200px) {
+ 
+    #navbar2 {
+        background-color: #fff;
+        width: 100%;
+}
+    #navbar2 .navbar-nav {
+        float: left;
+        margin: 6px 0px 14px -9px;
+        width: 250px;
+    }
+    #navbar2 .navbar-toggle {
+  		position: absolute;
+  		margin-top: 15px;
+  		border: none;
+  		right: 27px;
+  		display: block;
+	}
+    #navbar2 .navbar.navbar-default {
+        margin-bottom:0;
+    }
+
+
+    
+}
+
+@media (max-width: 992px) {
+
+    #navbar2 {
+        width: 100%;
+}
+    #navbar2 .navbar-nav {
+        float: left;
+        margin: 6px 0px 14px -9px;
+        width: 250px;
+    }
+    #navbar2 .navbar-toggle {
+  		position: absolute;
+  		margin-top: 15px;
+  		border: none;
+  		right: 27px;
+  		display: block;
+	}
+    #navbar2 .navbar.navbar-default {
+        margin-bottom:0;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+    #links {
+        padding: 15px 25px 10px 25px;
+}
+    #links #quote-box .btn {
+        margin: 40px 0px 50px 0px;
+    }
+    #links .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #links .col-md-9.col-sm-6 {
+        display: none;
+    }
+    #links .col-md-4 {
+        padding: 0;
+    }
+    #links .col-md-3 {
+        display: none;
+    }
+    #links .jumpLink {
+        color: #204d74;
+        margin-bottom: 13px;
+}
+    #links .jumpLink .fa-caret-up {
+        display: block;
+        color: #f0ad4e;
+    }
+
+
+
+    
+}

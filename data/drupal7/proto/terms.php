@@ -30,11 +30,11 @@
 <div class="container-fluid">
   <div class="row row-offcanvas row-offcanvas-right ">
       <!-- top-nav starts -->
-      <div id="top-nav" class="visible-sm visible-md visible-lg">
+      <div id="top-nav" class="visible-lg">
           <?php include "include-top-nav.php";?>
       </div>
       <!-- top-nav ends -->
-      <div class=" visible-xs">
+    <div class="visible-xs visible-sm visible-md">
           <!-- navbar2 starts -->
           <div class="navbar navbar-default" role="navigation">
               <?php include "include-navbar2.php";?>

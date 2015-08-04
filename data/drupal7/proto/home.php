@@ -30,9 +30,9 @@
 <div class="container-fluid">
   <div class="row row-offcanvas row-offcanvas-right active"> 
     <!-- top-nav starts -->
-    <div id="top-nav" class="visible-sm visible-md visible-lg"></div>
+    <div id="top-nav" class="visible-lg"></div>
     <!-- top-nav ends -->
-    <div class=" visible-xs"> 
+    <div class="visible-xs visible-sm visible-md">
       <!-- navbar2 starts -->
       <div class="navbar navbar-default" role="navigation"></div>
       <!-- navbar2 ends --> 

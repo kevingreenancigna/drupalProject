@@ -13,7 +13,7 @@ $(document).ready(function () {
 		$('#collapseListGroup2').collapse("show");
 		$('#collapseListGroup3').collapse("show");
 		$('#collapseListGroup4').collapse("show");
-	} else if (windowsize > 992 || windowsize > 1199) {
+/*	} else if (windowsize > 992 || windowsize > 1199) {
 		$('#-collapsible-list-group-1 a').removeAttr("data-toggle");
 		$('#-collapsible-list-group-2 a').removeAttr("data-toggle");
 		$('#-collapsible-list-group-3 a').removeAttr("data-toggle");
@@ -32,7 +32,7 @@ $(document).ready(function () {
 		$('#collapseListGroup1').collapse("hide");
 		$('#collapseListGroup2').collapse("hide");
 		$('#collapseListGroup3').collapse("hide");
-		$('#collapseListGroup4').collapse("show");
+		$('#collapseListGroup4').collapse("show");*/
 	} else {
 		$('#-collapsible-list-group-1 a').attr("data-toggle", "collapse");
 		$('#-collapsible-list-group-2 a').attr("data-toggle", "collapse");

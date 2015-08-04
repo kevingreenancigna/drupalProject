@@ -8,7 +8,7 @@
         </div>
       </div>
     </div>
-    <div id="links" class="container-fluid">
+    <div id="links" class="container-fluid hidden-sm hidden-md">
       <div class="container">
         <div id="quote-box" class="col-md-12 text-center hidden-lg hidden-md hidden-sm show-xs">
           <h3>Get a quote today</h3>
@@ -16,21 +16,21 @@
           <button type="button" class="btn btn-warning btn-lg center-block">Get a Quote</button>
         </div>
         <div class="row center-block text-center hidden-lg hidden-md hidden-sm show-xs" >
-          <div class="copyRight jumpLink" ><a href="#">
+          <div class="jumpLink" ><a href="#">
             <div class="fa fa-caret-up" aria-hidden="true"> </div>
             Top of the Page</a></div>
         </div>
-        <div class="col-md-9 col-sm-6">
-          <div class="col-md-4 first">
+        <div class="col-md-9 col-sm-6 visible-lg">
+          <div class="col-md-4">
             <div class="panel-group" role="tablist" >
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading1"  >
-                  <h4 class="panel-title" id="-collapsible-list-group-1"> <a class="" role="button" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="true" aria-controls="collapseListGroup1" > Why Choose Cigna? </a><span class="fa fa-angle-down pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span>  </h4>
+                  <h4 class="panel-title">Why Choose Cigna?  </h4>
                 </div>
                 <div id="collapseListGroup1" class="panel-collapse in collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="true" >
                   <ul class="list-group">
-                    <li class="list-group-item"><a href="#" >Why Choose Cigna?</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Expatriate Medical Insurance Explained </a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
+                    <li class="list-group-item"><a href="#" >Why Choose Cigna?</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Expatriate Medical Insurance Explained </a> </span></li>
                   </ul>
                 </div>
               </div>
@@ -38,14 +38,14 @@
             <div class="panel-group" role="tablist" >
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
-                  <h4 class="panel-title" id="-collapsible-list-group-2"> <a class="" role="button" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="true" aria-controls="collapseListGroup2" > Health Insurance </a><span class="fa fa-angle-down pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span> </h4>
+                  <h4 class="panel-title">Health Insurance </h4>
                 </div>
                 <div id="collapseListGroup2" class="panel-collapse in collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="true" >
                   <ul class="list-group">
-                    <li class="list-group-item"><a href="#" >International Medical Insurance</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >International Medical Evacuation</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >International Health and Wellbeing</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >International Vision and Dental</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
+                    <li class="list-group-item"><a href="#" >International Medical Insurance</a> </span></li>
+                    <li class="list-group-item"><a href="#" >International Medical Evacuation</a> </span></li>
+                    <li class="list-group-item"><a href="#" >International Health and Wellbeing</a> </span></li>
+                    <li class="list-group-item"><a href="#" >International Vision and Dental</a> </span></li>
                   </ul>
                 </div>
               </div>
@@ -55,23 +55,22 @@
             <div class="panel-group" role="tablist" >
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading3">
-                  <h4 class="panel-title" id="-collapsible-list-group-3"> 
-                  <a class="" role="button" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="true" aria-controls="collapseListGroup3" > Expat Resource Centre </a><span class="fa fa-angle-down pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span> </h4>
+                  <h4 class="panel-title"> Expat Resource Centre  </h4>
                 </div>
                 <div id="collapseListGroup3" class="panel-collapse in collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3" aria-expanded="true" >
                   <ul class="list-group">
-                    <li class="list-group-item"><a href="#" >Expat Resources</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Becoming an Expat</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Country Guides</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Expat Finance</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Find an International School</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Visa and Immigration</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Expat Health and Wellbeing</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Safe Travel App</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Twitter Map</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Expat Stories</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Press Releases</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Downloads</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
+                    <li class="list-group-item"><a href="#" >Expat Resources</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Becoming an Expat</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Country Guides</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Expat Finance</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Find an International School</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Visa and Immigration</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Expat Health and Wellbeing</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Safe Travel App</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Twitter Map</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Expat Stories</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Press Releases</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Downloads</a> </span></li>
                   </ul>
                 </div>
               </div>
@@ -81,25 +80,25 @@
             <div class="panel-group" role="tablist" >
               <div class="panel panel-default">
                 <div class="panel-heading" role="tab" id="collapseListGroupHeading4">
-                  <h4 class="panel-title" id="-collapsible-list-group-4"> <a class="" role="button" data-toggle="collapse" href="#collapseListGroup4" aria-expanded="false" aria-controls="collapseListGroup4" > Cigna Website </a> </h4>
+                  <h4 class="panel-title"> Cigna Website </h4>
                 </div>
                 <div id="collapseListGroup4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="collapseListGroupHeading4" aria-expanded="false" >
                   <ul class="list-group">
-                    <li class="list-group-item"><a href="about.html" >About Us</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Partners</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="contact.php" >Contact</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Get A Quote</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Transferring To Cigna</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Customer Reviews</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="#" >Help</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
-                    <li class="list-group-item"><a href="faq.php" >FAQ</a><span class="fa fa-angle-right pull-right hidden-lg hidden-md show-sm show-xs" aria-hidden="true"> </span></li>
+                    <li class="list-group-item"><a href="about.html" >About Us</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Partners</a> </span></li>
+                    <li class="list-group-item"><a href="contact.php" >Contact</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Get A Quote</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Transferring To Cigna</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Customer Reviews</a> </span></li>
+                    <li class="list-group-item"><a href="#" >Help</a> </span></li>
+                    <li class="list-group-item"><a href="faq.php" >FAQ</a> </span></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 last">
+        <div class="col-md-3 col-sm-6 col-xs-12 visible-lg last">
           <h4> Call Us:</h4>
           <ul class="list-unstyled" >
             <li> Worldwide : +44(0)1475 777625 </li>
@@ -129,7 +128,7 @@
       <div class="container">
         <div id="bottomNav" class="col-xs-12 col-md-12 center-block text-center" >
           <ul class="list-inline">
-            <span class="copyRight">
+            <span class="copyRight1">
             <li>© 2015 Cigna</li> |</span>
             <li><a href="#">Sitemap</a></li> |
             <li><a href="#">Accessibility</a></li> |
@@ -140,7 +139,7 @@
           </ul>
         </div>
         <div class="row center-block text-center" >
-          <div class="copyRight" >© 2015 Cigna</div>
+          <div class="copyRight2">© 2015 Cigna</div>
         </div>
       </div>
     </div>
